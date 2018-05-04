@@ -1,6 +1,5 @@
 # Prego
 
-[![CI Status](https://img.shields.io/travis/Filipe Dias/Prego.svg?style=flat)](https://travis-ci.org/Filipe Dias/Prego)
 [![Version](https://img.shields.io/cocoapods/v/Prego.svg?style=flat)](https://cocoapods.org/pods/Prego)
 [![License](https://img.shields.io/cocoapods/l/Prego.svg?style=flat)](https://cocoapods.org/pods/Prego)
 [![Platform](https://img.shields.io/cocoapods/p/Prego.svg?style=flat)](https://cocoapods.org/pods/Prego)

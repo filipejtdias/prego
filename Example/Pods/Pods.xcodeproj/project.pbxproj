@@ -406,7 +406,8 @@
 				16F95606209CE83D001D616C /* Foundation */,
 				16F95605209CE836001D616C /* UI */,
 			);
-			path = Extensions;
+			name = Extensions;
+			path = Prego/Classes/Extensions;
 			sourceTree = "<group>";
 		};
 		16F95605209CE836001D616C /* UI */ = {
@@ -442,7 +443,8 @@
 				16F95624209CF954001D616C /* Log.swift */,
 				16F95622209CF4E1001D616C /* LogPermissions.swift */,
 			);
-			path = Log;
+			name = Log;
+			path = Prego/Classes/Log;
 			sourceTree = "<group>";
 		};
 		16F95627209CFC3D001D616C /* Utils */ = {
@@ -451,7 +453,8 @@
 				16F9562C209CFF8B001D616C /* AppInfo.swift */,
 				16F95628209CFC63001D616C /* Platform.swift */,
 			);
-			path = Utils;
+			name = Utils;
+			path = Prego/Classes/Utils;
 			sourceTree = "<group>";
 		};
 		16F9562E209D010C001D616C /* Operations */ = {
@@ -460,7 +463,8 @@
 				16F9562F209D0141001D616C /* POperation.swift */,
 				16F95631209D0152001D616C /* POperationQueue.swift */,
 			);
-			path = Operations;
+			name = Operations;
+			path = Prego/Classes/Operations;
 			sourceTree = "<group>";
 		};
 		3C3FDCB7F0ADE0D02BF96EB1D4E2C89F /* Pods */ = {

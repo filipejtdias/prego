@@ -8,35 +8,37 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Prego'
+  s.module_name      = 'Prego'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Prego.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  
+  s.ios.deployment_target   = '11.0'
+  s.tvos.deployment_target  = '11.0'
+  s.swift_version           = '4.1'
+  
+  s.summary          = 'Useful Extensions & Utils used on a daily basis by an iOS Developer'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    Have you ever heard about DRY? 🤔
+    This repository contains small utils and helpers that make our life easier.
                        DESC
 
-  s.homepage         = 'https://github.com/Filipe Dias/Prego'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/filipejtdias/prego'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Filipe Dias' => 'filipejtdias@gmail.com' }
-  s.source           = { :git => 'https://github.com/Filipe Dias/Prego.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'Prego/Classes/**/*'
+  s.source           = { :git => 'https://github.com/filipejtdias/prego.git', :tag => s.version.to_s }
+  s.source_files     = 'Prego/Classes/**/*'
+  s.frameworks       = ['Foundation', 'UIKit']
   
-  # s.resource_bundles = {
-  #   'Prego' => ['Prego/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  subspec 'UI' do |sp|
+      sp.source_files = 'Classes/UI'
+  end
+  
+  subspec 'Log' do |sp|
+      sp.source_files = 'Classes/Log'
+  end
+  
+  subspec 'Operations' do |sp|
+      sp.source_files = 'Classes/Operations'
+  end
+  
 end
