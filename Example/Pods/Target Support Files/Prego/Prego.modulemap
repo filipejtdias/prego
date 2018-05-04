@@ -1,0 +1,6 @@
+framework module Prego {
+  umbrella header "Prego-umbrella.h"
+
+  export *
+  module * { export * }
+}

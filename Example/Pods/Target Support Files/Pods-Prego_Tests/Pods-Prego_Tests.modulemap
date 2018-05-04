@@ -1,0 +1,6 @@
+framework module Pods_Prego_Tests {
+  umbrella header "Pods-Prego_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
