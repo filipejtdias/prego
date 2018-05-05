@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name        = 'Prego'
   s.module_name = 'Prego'
-  s.version     = '0.1.0'
+  s.version     = '0.1.1'
   
   s.ios.deployment_target   = '11.0'
   s.tvos.deployment_target  = '11.0'
@@ -26,31 +26,23 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Filipe Dias' => 'filipejtdias@gmail.com' }
   s.source           = { :git => 'https://github.com/filipejtdias/prego.git', :tag => s.version.to_s }
-  s.source_files     = 'Prego/Classes/**/*'
+  s.source_files     = 'Sources/**/*'
   s.frameworks       = ['Foundation', 'UIKit']
   
   s.subspec 'Extensions' do |sp|
-      sp.source_files = 'Prego/Classes/Extensions/**/*'
-  end
-
-  s.subspec 'Extensions_Foundation' do |sp|
-      sp.source_files = 'Prego/Classes/Extensions/Foundation'
-  end
-
-  s.subspec 'Extensions_UI' do |sp|
-      sp.source_files = 'Prego/Classes/Extensions/UI'
+      sp.source_files = 'Sources/Extensions/**/*'
   end
   
   s.subspec 'Log' do |sp|
-      sp.source_files = 'Prego/Classes/Log'
+      sp.source_files = 'Sources/Log'
   end
   
   s.subspec 'Operations' do |sp|
-      sp.source_files = 'Prego/Classes/Operations'
+      sp.source_files = 'Sources/Operations'
   end
 
   s.subspec 'Utils' do |sp|
-      sp.source_files = 'Prego/Classes/Utils'
+      sp.source_files = 'Sources/Utils'
   end
   
 end

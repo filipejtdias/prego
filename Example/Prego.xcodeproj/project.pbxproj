@@ -170,8 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				74CADF067E06EEDFD7CB66D5 /* [CP] Embed Pods Frameworks */,
-				1A022DB629D6176D69B869A2 /* [CP] Copy Pods Resources */,
+				B25814938EB7006FD11FCEB5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,7 +190,6 @@
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
 				9AAACDDA79CD2BBC0B127FA6 /* [CP] Embed Pods Frameworks */,
-				8AB610311D98A8567FFD4BEE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,39 +262,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1A022DB629D6176D69B869A2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Prego_Example/Pods-Prego_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		74CADF067E06EEDFD7CB66D5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Prego_Example/Pods-Prego_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Prego/Prego.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Prego.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Prego_Example/Pods-Prego_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		77F09C9D4CF70E4E2F63D5AE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -313,21 +278,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8AB610311D98A8567FFD4BEE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Prego_Tests/Pods-Prego_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9AAACDDA79CD2BBC0B127FA6 /* [CP] Embed Pods Frameworks */ = {
@@ -348,6 +298,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Prego_Tests/Pods-Prego_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B25814938EB7006FD11FCEB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Prego_Example/Pods-Prego_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Prego/Prego.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Prego.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Prego_Example/Pods-Prego_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DC510B71311812EA7D1ECD6B /* [CP] Check Pods Manifest.lock */ = {

@@ -1,6 +1,14 @@
 PODS:
   - Nimble (7.0.3)
-  - Prego (0.1.0)
+  - Prego (0.1.1):
+    - Prego/Extensions (= 0.1.1)
+    - Prego/Log (= 0.1.1)
+    - Prego/Operations (= 0.1.1)
+    - Prego/Utils (= 0.1.1)
+  - Prego/Extensions (0.1.1)
+  - Prego/Log (0.1.1)
+  - Prego/Operations (0.1.1)
+  - Prego/Utils (0.1.1)
   - Quick (1.2.0)
 
 DEPENDENCIES:
@@ -8,15 +16,20 @@ DEPENDENCIES:
   - Prego (from `../`)
   - Quick (~> 1.2.0)
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Nimble
+    - Quick
+
 EXTERNAL SOURCES:
   Prego:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
-  Prego: be2a29aa1e7324b850451bb66116e24377ad018f
+  Prego: ed04c50328710615d9892cbb9189bec8c63504e7
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
 
 PODFILE CHECKSUM: 94080ede94f787b7bbe6de29a73d7dd72493c4fd
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.0

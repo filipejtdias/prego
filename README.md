@@ -35,8 +35,6 @@ Other options:
 
 ```ruby
 pod 'Prego/Extensions', '~> 0.1'
-pod 'Prego/Extensions_Foundation', '~> 0.1'
-pod 'Prego/Extensions_UI', '~> 0.1'
 pod 'Prego/Log', '~> 0.1'
 pod 'Prego/Operations', '~> 0.1'
 pod 'Prego/Utils', '~> 0.1'
