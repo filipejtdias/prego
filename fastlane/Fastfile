@@ -1,0 +1,14 @@
+default_platform(:ios)
+
+platform :ios do
+  
+  desc "Description of what the lane does"
+  lane :lint do
+    sh('cd ../; pod lib lint')
+  end
+
+  desc "Publish to Github"
+  lane :deploy do
+    sh('cd ../; pod trunk push Prego.podspec')
+  end  
+end
