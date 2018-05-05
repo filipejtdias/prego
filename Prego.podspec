@@ -7,15 +7,15 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Prego'
-  s.module_name      = 'Prego'
-  s.version          = '0.1.0'
+  s.name        = 'Prego'
+  s.module_name = 'Prego'
+  s.version     = '0.1.0'
   
   s.ios.deployment_target   = '11.0'
   s.tvos.deployment_target  = '11.0'
   s.swift_version           = '4.1'
   
-  s.summary          = 'Useful Extensions & Utils used on a daily basis by an iOS Developer'
+  s.summary = 'Useful Extensions & Utils used on a daily basis by an iOS Developer'
 
   s.description      = <<-DESC
     Have you ever heard about DRY? 🤔
@@ -29,16 +29,28 @@ Pod::Spec.new do |s|
   s.source_files     = 'Prego/Classes/**/*'
   s.frameworks       = ['Foundation', 'UIKit']
   
-  subspec 'UI' do |sp|
-      sp.source_files = 'Classes/UI'
+  s.subspec 'Extensions' do |sp|
+      sp.source_files = 'Prego/Classes/Extensions/**/*'
+  end
+
+  s.subspec 'Extensions_Foundation' do |sp|
+      sp.source_files = 'Prego/Classes/Extensions/Foundation'
+  end
+
+  s.subspec 'Extensions_UI' do |sp|
+      sp.source_files = 'Prego/Classes/Extensions/UI'
   end
   
-  subspec 'Log' do |sp|
-      sp.source_files = 'Classes/Log'
+  s.subspec 'Log' do |sp|
+      sp.source_files = 'Prego/Classes/Log'
   end
   
-  subspec 'Operations' do |sp|
-      sp.source_files = 'Classes/Operations'
+  s.subspec 'Operations' do |sp|
+      sp.source_files = 'Prego/Classes/Operations'
+  end
+
+  s.subspec 'Utils' do |sp|
+      sp.source_files = 'Prego/Classes/Utils'
   end
   
 end

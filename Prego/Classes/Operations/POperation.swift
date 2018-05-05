@@ -39,7 +39,7 @@ class POperation: Operation {
         
         if isCancelled {
             
-            Log.debug("\(self) not started because previously canceled")
+            print("\(self) not started because previously canceled")
             return
         }
     }

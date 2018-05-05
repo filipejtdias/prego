@@ -14,10 +14,10 @@ This repository contains small utils and helpers that make our life easier.
 
 ## Features ✨
 
-1. **[Extensions][Extensions] 🔍**
-1. **[Log][Log] 📝**
-1. **[Operations][Operations] 🚦**
-1. **[Utils][Utils] 🍿**
+1. **[Extensions][] 🔍**
+1. **[Log][] 📝**
+1. **[Operations][] 🚦**
+1. **[Utils][] 🍿**
 
 ## Installation 🔧
 
@@ -30,6 +30,18 @@ If you use [CocoaPods][] to manage your dependencies, simply add Prego to your `
 ```ruby
 pod 'Prego', '~> 0.1'
 ```
+    
+Other options:    
+
+```ruby
+pod 'Prego/Extensions', '~> 0.1'
+pod 'Prego/Extensions_Foundation', '~> 0.1'
+pod 'Prego/Extensions_UI', '~> 0.1'
+pod 'Prego/Log', '~> 0.1'
+pod 'Prego/Operations', '~> 0.1'
+pod 'Prego/Utils', '~> 0.1'
+```
+
 
 ### Carthage
 

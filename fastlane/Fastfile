@@ -9,6 +9,6 @@ platform :ios do
 
   desc "Publish to Github"
   lane :deploy do
-    sh('cd ../; pod trunk push Prego.podspec')
+    sh('cd ../; pod trunk push')
   end  
 end

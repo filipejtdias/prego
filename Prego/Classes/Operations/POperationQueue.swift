@@ -68,13 +68,13 @@ class POperationQueue: OperationQueue {
             
         } else {
             
-            Log.warning("Trying to add an observer without anyone to watch! / Trying to start an operation without adding it to a queue!")
+            print("Trying to add an observer without anyone to watch! / Trying to start an operation without adding it to a queue!")
         }
     }
     
     deinit {
         
         // No need to remove observer because it's already done on `observeValueForKeyPath` method
-        Log.verbose("POperationQueue deinit...")
+        print("POperationQueue deinit...")
     }
 }
