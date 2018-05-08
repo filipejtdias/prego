@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name        = 'Prego'
   s.module_name = 'Prego'
-  s.version     = '0.1.1'
+  s.version     = '0.1.2'
   
   s.ios.deployment_target   = '11.0'
   s.tvos.deployment_target  = '11.0'
@@ -26,7 +26,8 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Filipe Dias' => 'filipejtdias@gmail.com' }
   s.source           = { :git => 'https://github.com/filipejtdias/prego.git', :tag => s.version.to_s }
-  s.source_files     = 'Sources/**/*'
+  # s.source_files     = 'Sources/**/*'
+  # s.sources
   s.frameworks       = ['Foundation', 'UIKit']
   
   s.subspec 'Extensions' do |sp|
@@ -43,6 +44,10 @@ Pod::Spec.new do |s|
 
   s.subspec 'Utils' do |sp|
       sp.source_files = 'Sources/Utils'
+  end
+
+  s.subspec 'Enums' do |sp|
+      sp.source_files = 'Enums'
   end
   
 end
