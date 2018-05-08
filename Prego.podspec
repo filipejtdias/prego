@@ -26,8 +26,6 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Filipe Dias' => 'filipejtdias@gmail.com' }
   s.source           = { :git => 'https://github.com/filipejtdias/prego.git', :tag => s.version.to_s }
-  # s.source_files     = 'Sources/**/*'
-  # s.sources
   s.frameworks       = ['Foundation', 'UIKit']
   
   s.subspec 'Extensions' do |sp|
