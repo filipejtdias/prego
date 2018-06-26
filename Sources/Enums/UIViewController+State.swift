@@ -12,6 +12,7 @@ public enum ViewControllerState<T, E> {
     case loading
     case loaded(T)
     case error(E)
+    case empty(E)
 }
 
 public typealias ViewControllerStateChanged<T, E> = (ViewControllerState<T, E>) -> Void

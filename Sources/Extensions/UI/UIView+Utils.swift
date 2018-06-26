@@ -10,6 +10,16 @@ import UIKit
 
 public extension UIView {
     
+    public var halfWidth: CGFloat {
+        
+        return frame.width / 2.0
+    }
+    
+    public var halfHeight: CGFloat {
+        
+        return frame.height / 2.0
+    }
+    
     public var screenshot: UIImage? {
         
         UIGraphicsBeginImageContextWithOptions(bounds.size, false, 0.0)
@@ -34,4 +44,17 @@ public extension UIView {
         
         return nil
     }
+    
+    /**
+     Rotate a view by specified degrees
+     
+     - parameter angle: angle in degrees
+     */
+    public func rotate(angle: CGFloat) {
+        
+        let radians     = angle / 180.0 * .pi
+        let rotation    = CGAffineTransform(rotationAngle: radians)
+        transform       = rotation
+    }
+    
 }
