@@ -15,4 +15,20 @@ public enum ViewControllerState<T, E> {
     case empty(E)
 }
 
+extension ViewControllerState: CustomStringConvertible {
+    
+    public var description: String {
+        
+        switch self {
+            
+        case .empty:   return "Empty"
+        case .error:   return "Error"
+        case .loaded:  return "Loaded"
+        case .loading: return "Loading"
+            
+        }
+    }
+}
+
 public typealias ViewControllerStateChanged<T, E> = (ViewControllerState<T, E>) -> Void
+
