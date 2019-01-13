@@ -9,7 +9,7 @@ import Foundation
 
 public class Log {
     
-    open static var permissions: LogPermissions = .All
+    public static var permissions: LogPermissions = .All
     
     public class func temporary(_ message: String, file: String = #file, function: String = #function, line: Int = #line) {
         
