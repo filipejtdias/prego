@@ -11,12 +11,12 @@ public extension Dictionary {
     
     public mutating func merge(with dictionary: [Key: Value]?) {
         
-        if let dictionary = dictionary {
+        guard let dictionary = dictionary else { return }
+        
+        for (k, v) in dictionary {
             
-            for (k, v) in dictionary {
-                
-                updateValue(v, forKey: k)
-            }
+            updateValue(v, forKey: k)
         }
+        
     }
 }

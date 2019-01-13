@@ -3,7 +3,7 @@
 [![license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/filipejtdias/prego/blob/master/LICENSE)
 [![release](https://img.shields.io/github/release/filipejtdias/prego.svg)](https://github.com/filipejtdias/prego/releases)
 ![platforms](https://img.shields.io/badge/platforms-iOS-lightgrey.svg)
-[![Swift 4.1](https://img.shields.io/badge/Swift-4-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Swift 4.2](https://img.shields.io/badge/Swift-4-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![Carthage](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![CocoaPods](https://img.shields.io/cocoapods/v/Prego.svg)](https://cocoapods.org/)
 
@@ -21,23 +21,23 @@ This repository contains small utils and helpers that make our life easier.
 
 ## Installation 🔧
 
-Prego supports iOS 11.0+ and requires Xcode 9.3+.
+Prego supports iOS 11.0+ and requires Xcode 10.x  ( Swift 4.2 )    
 
 ### CocoaPods
 
 If you use [CocoaPods][] to manage your dependencies, simply add Prego to your `Podfile`:
 
 ```ruby
-pod 'Prego', '~> 0.1'
+pod 'Prego', '~> 0.2'
 ```
     
 Other options:    
 
 ```ruby
-pod 'Prego/Extensions', '~> 0.1'
-pod 'Prego/Log', '~> 0.1'
-pod 'Prego/Operations', '~> 0.1'
-pod 'Prego/Utils', '~> 0.1'
+pod 'Prego/Extensions', '~> 0.2'
+pod 'Prego/Log', '~> 0.2'
+pod 'Prego/Operations', '~> 0.2'
+pod 'Prego/Utils', '~> 0.2'
 ```
 
 
@@ -46,7 +46,7 @@ pod 'Prego/Utils', '~> 0.1'
 If you use [Carthage][] to manage your dependencies, simply add Prego to your `Cartfile`:
 
 ```
-github "filipejtdias/prego" ~> 0.1
+github "filipejtdias/prego" ~> 0.2
 ```
 
 If you use Carthage to build your dependencies, make sure you have added `Prego.framework` to the 

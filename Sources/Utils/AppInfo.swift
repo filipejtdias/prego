@@ -9,7 +9,7 @@ import Foundation
 
 public class AppInfo {
     
-    open static var bundle: Bundle = .main
+    public static var bundle: Bundle = .main
     
     public class func languageBundle(_ language: String, bundle: Bundle) -> Bundle? {
         
