@@ -9,7 +9,7 @@ import Foundation
 
 public extension Date {
     
-    public init?(dotNetJSONString: String) {
+    init?(dotNetJSONString: String) {
         
         guard !dotNetJSONString.isEmpty &&
             dotNetJSONString.hasPrefix("/Date(") &&

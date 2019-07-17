@@ -10,19 +10,19 @@ import UIKit
 
 public extension UITableView {
     
-    public func register<T: UITableViewCell>(_: T.Type) where T: ReusableView, T: NibLoadedView {
+    func register<T: UITableViewCell>(_: T.Type) where T: ReusableView, T: NibLoadedView {
         
         let nib = UINib(nibName: T.nibName, bundle: nil)
         register(nib, forCellReuseIdentifier: T.reuseIdentifier)
     }
     
-    public func register<T: UITableViewHeaderFooterView>(_: T.Type) where T: ReusableView, T: NibLoadedView {
+    func register<T: UITableViewHeaderFooterView>(_: T.Type) where T: ReusableView, T: NibLoadedView {
         
         let nib = UINib(nibName: T.nibName, bundle: nil)
         register(nib, forHeaderFooterViewReuseIdentifier: T.reuseIdentifier)
     }
     
-    public func dequeueReusableCell<T: UITableViewCell>(for indexPath: IndexPath) -> T where T: ReusableView {
+    func dequeueReusableCell<T: UITableViewCell>(for indexPath: IndexPath) -> T where T: ReusableView {
         
         guard let cell = dequeueReusableCell(withIdentifier: T.reuseIdentifier, for: indexPath) as? T else {
             
@@ -32,7 +32,7 @@ public extension UITableView {
         return cell
     }
     
-    public func dequeueReusableHeaderFooterView<T: UITableViewHeaderFooterView>() -> T where T: ReusableView {
+    func dequeueReusableHeaderFooterView<T: UITableViewHeaderFooterView>() -> T where T: ReusableView {
         
         guard let headerFooterView = dequeueReusableHeaderFooterView(withIdentifier: T.reuseIdentifier) as? T else {
             
@@ -42,7 +42,7 @@ public extension UITableView {
         return headerFooterView
     }
     
-    public func scrollToTop(animeted: Bool = true) {
+    func scrollToTop(animeted: Bool = true) {
         
         scrollToRow(at: IndexPath(row: 0, section: 0), at: .top, animated: true)
     }

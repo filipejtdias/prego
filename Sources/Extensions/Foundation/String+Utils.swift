@@ -13,7 +13,7 @@ public extension String {
      - returns:
      String trimmed
      */
-    public func trim() -> String {
+    func trim() -> String {
         
         return self.trimmingCharacters(in: .whitespaces)
     }

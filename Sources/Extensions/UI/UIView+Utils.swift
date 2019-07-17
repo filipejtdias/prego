@@ -10,17 +10,17 @@ import UIKit
 
 public extension UIView {
     
-    public var halfWidth: CGFloat {
+    var halfWidth: CGFloat {
         
         return frame.width / 2.0
     }
     
-    public var halfHeight: CGFloat {
+    var halfHeight: CGFloat {
         
         return frame.height / 2.0
     }
     
-    public var screenshot: UIImage? {
+    var screenshot: UIImage? {
         
         UIGraphicsBeginImageContextWithOptions(bounds.size, false, 0.0)
         
@@ -50,7 +50,7 @@ public extension UIView {
      
      - parameter angle: angle in degrees
      */
-    public func rotate(angle: CGFloat) {
+    func rotate(angle: CGFloat) {
         
         let radians     = angle / 180.0 * .pi
         let rotation    = CGAffineTransform(rotationAngle: radians)

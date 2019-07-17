@@ -21,17 +21,17 @@ public protocol AnyCollectionViewCellStrategyProtocol {
 
 public extension AnyCollectionViewCellStrategyProtocol {
     
-    public func insetForSection(in collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, at section: Int) -> UIEdgeInsets {
+    func insetForSection(in collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, at section: Int) -> UIEdgeInsets {
         
         return .zero
     }
     
-    public func shouldSelectCell(at indexPath: IndexPath) -> Bool {
+    func shouldSelectCell(at indexPath: IndexPath) -> Bool {
         
         return true
     }
     
-    public func didSelectCell(in collectionView: UICollectionView, at indexPath: IndexPath) {
+    func didSelectCell(in collectionView: UICollectionView, at indexPath: IndexPath) {
         
     }
     

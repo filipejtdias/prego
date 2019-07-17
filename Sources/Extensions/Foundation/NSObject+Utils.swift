@@ -17,7 +17,7 @@ public extension NSObject {
      
      @see http://derpturkey.com/get-property-names-of-object-in-swift/
      */
-    public func propertyNames() -> Array<String> {
+    func propertyNames() -> Array<String> {
         
         var results: Array<String> = [];
         

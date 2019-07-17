@@ -1,12 +1,12 @@
 {
   "name": "Prego",
   "module_name": "Prego",
-  "version": "0.1.5",
+  "version": "0.3.0",
   "platforms": {
     "ios": "11.0",
     "tvos": "11.0"
   },
-  "swift_version": "4.1",
+  "swift_versions": "5.0",
   "summary": "Useful Extensions & Utils used on a daily basis by an iOS Developer",
   "description": "Have you ever heard about DRY? 🤔\nThis repository contains small utils and helpers that make our life easier.",
   "homepage": "https://github.com/filipejtdias/prego",
@@ -19,7 +19,7 @@
   },
   "source": {
     "git": "https://github.com/filipejtdias/prego.git",
-    "tag": "0.1.5"
+    "tag": "0.3.0"
   },
   "frameworks": [
     "Foundation",
@@ -46,5 +46,6 @@
       "name": "Enums",
       "source_files": "Sources/Enums"
     }
-  ]
+  ],
+  "swift_version": "5.0"
 }

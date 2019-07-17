@@ -9,7 +9,7 @@ import Foundation
 
 public extension UIColor {
     
-    public class var random: UIColor {
+    class var random: UIColor {
         
         let allColors: [UIColor] = [.black, .darkGray,
                                     .lightGray, .gray,
@@ -23,7 +23,7 @@ public extension UIColor {
         return allColors[Int(pos)]
     }
     
-    public convenience init(hex: String) {
+    convenience init(hex: String) {
         
         let hexString = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
         var int = UInt32()
@@ -54,7 +54,7 @@ public extension UIColor {
         self.init(red: CGFloat(r) / 255, green: CGFloat(g) / 255, blue: CGFloat(b) / 255, alpha: CGFloat(a) / 255)
     }
     
-    public func rgb() -> (red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat)? {
+    func rgb() -> (red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat)? {
         
         var fRed: CGFloat   = 0
         var fGreen: CGFloat = 0

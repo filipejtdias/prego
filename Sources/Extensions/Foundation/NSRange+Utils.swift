@@ -9,7 +9,7 @@ import Foundation
 
 public extension String {
     
-    public func nsRange(from range: Range<String.Index>) -> NSRange? {
+    func nsRange(from range: Range<String.Index>) -> NSRange? {
         
         guard
             let from = range.lowerBound.samePosition(in: utf16),
@@ -20,7 +20,7 @@ public extension String {
                        length: utf16.distance(from: from, to: to))
     }
     
-    public func range(from nsRange: NSRange) -> Range<String.Index>? {
+    func range(from nsRange: NSRange) -> Range<String.Index>? {
         
         guard
             let from16 = utf16.index(utf16.startIndex, offsetBy: nsRange.location, limitedBy: utf16.endIndex),

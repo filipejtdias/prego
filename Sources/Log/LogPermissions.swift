@@ -62,20 +62,20 @@ public extension LogPermissions {
     /**
      No logs will be printed! Should be used in production builds
      */
-    public static let None: LogPermissions = []
+    static let None: LogPermissions = []
     
     /**
      Contains: **Debug**, **Warning**, **Error**, **Network** and **Persistence** logs
      */
-    public static let Testing: LogPermissions = [Debug, Warning, Error, Network, Persistence]
+    static let Testing: LogPermissions = [Debug, Warning, Error, Network, Persistence]
     
     /**
      Contains: **Debug**, **Warning**, **Error**, **Network**, **Persistence**, **Analytics** and **Temporary** logs
      */
-    public static let Developer: LogPermissions = [Debug, Warning, Error, Network, Persistence, Analytics, Temporary]
+    static let Developer: LogPermissions = [Debug, Warning, Error, Network, Persistence, Analytics, Temporary]
     
     /**
      Contains all logs: **Verbose**, **Debug**, **Warning**, **Error**, **Network**, **Persistence**, **Analytics** and **Temporary**
      */
-    public static let All: LogPermissions = [Verbose, Debug, Warning, Error, Network, Persistence, Analytics, Temporary]
+    static let All: LogPermissions = [Verbose, Debug, Warning, Error, Network, Persistence, Analytics, Temporary]
 }

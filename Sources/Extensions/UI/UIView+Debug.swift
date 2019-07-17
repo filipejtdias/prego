@@ -10,7 +10,7 @@ import UIKit
 
 public extension UIView {
     
-    public func debugLayer(color: UIColor = .random, width: CGFloat = 1.0) {
+    func debugLayer(color: UIColor = .random, width: CGFloat = 1.0) {
         
         layer.borderColor = color.cgColor
         layer.borderWidth = width

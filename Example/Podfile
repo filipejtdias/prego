@@ -6,7 +6,5 @@ target 'Prego_Example' do
   target 'Prego_Tests' do
     inherit! :search_paths
 
-    pod 'Quick'
-    pod 'Nimble'
   end
 end

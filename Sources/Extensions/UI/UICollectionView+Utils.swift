@@ -9,12 +9,12 @@ import UIKit
 
 public extension UICollectionView {
     
-    public func register<T: UICollectionViewCell>(_: T.Type) where T: ReusableView {
+    func register<T: UICollectionViewCell>(_: T.Type) where T: ReusableView {
         
         register(T.self, forCellWithReuseIdentifier: T.reuseIdentifier)
     }
     
-    public func register<T: UICollectionViewCell>(_: T.Type) where T: ReusableView, T: NibLoadedView {
+    func register<T: UICollectionViewCell>(_: T.Type) where T: ReusableView, T: NibLoadedView {
         
         let bundle  = Bundle(for: T.self)
         let nib     = UINib(nibName: T.nibName, bundle: bundle)
@@ -22,12 +22,12 @@ public extension UICollectionView {
         register(nib, forCellWithReuseIdentifier: T.reuseIdentifier)
     }
     
-    public func register<T: UICollectionReusableView>(_: T.Type, kind: String) where T: ReusableView {
+    func register<T: UICollectionReusableView>(_: T.Type, kind: String) where T: ReusableView {
         
         register(T.self, forSupplementaryViewOfKind: kind, withReuseIdentifier: T.reuseIdentifier)
     }
     
-    public func register<T: UICollectionReusableView>(_: T.Type, for kind: String) where T: ReusableView, T: NibLoadedView {
+    func register<T: UICollectionReusableView>(_: T.Type, for kind: String) where T: ReusableView, T: NibLoadedView {
         
         let bundle  = Bundle(for: T.self)
         let nib     = UINib(nibName: T.nibName, bundle: bundle)
@@ -35,7 +35,7 @@ public extension UICollectionView {
         register(nib, forSupplementaryViewOfKind: kind, withReuseIdentifier: T.reuseIdentifier)
     }
     
-    public func dequeueCell<T: UICollectionViewCell>(for indexPath: IndexPath) -> T where T: ReusableView {
+    func dequeueCell<T: UICollectionViewCell>(for indexPath: IndexPath) -> T where T: ReusableView {
         
         guard let cell = dequeueReusableCell(withReuseIdentifier: T.reuseIdentifier, for: indexPath) as? T else {
             
@@ -45,7 +45,7 @@ public extension UICollectionView {
         return cell
     }
     
-    public func dequeueSupplementaryView<T: UICollectionReusableView>(ofkind kind: String,
+    func dequeueSupplementaryView<T: UICollectionReusableView>(ofkind kind: String,
                                                                       for indexPath: IndexPath) -> T where T: ReusableView {
         
         guard let view = dequeueReusableSupplementaryView(ofKind: kind,

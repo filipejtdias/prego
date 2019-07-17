@@ -9,7 +9,7 @@ import Foundation
 
 public extension Array where Element: Equatable {
     
-    public func areAllElementsEqual() -> Bool {
+    func areAllElementsEqual() -> Bool {
         
         if let firstElem = first {
             
@@ -19,7 +19,7 @@ public extension Array where Element: Equatable {
         return true
     }
     
-    public func removeDuplicates() -> [Element] {
+    func removeDuplicates() -> [Element] {
         
         var result = [Element]()
         
@@ -34,9 +34,9 @@ public extension Array where Element: Equatable {
         return result
     }
     
-    public mutating func remove(_ object: Element) -> Bool {
+    mutating func remove(_ object: Element) -> Bool {
         
-        if let pos = index(of: object) {
+      if let pos = firstIndex(of: object) {
             
             self.remove(at: pos)
             return true

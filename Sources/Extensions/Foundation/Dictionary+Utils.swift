@@ -9,7 +9,7 @@ import Foundation
 
 public extension Dictionary {
     
-    public mutating func merge(with dictionary: [Key: Value]?) {
+    mutating func merge(with dictionary: [Key: Value]?) {
         
         guard let dictionary = dictionary else { return }
         
