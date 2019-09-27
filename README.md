@@ -14,10 +14,11 @@ This repository contains small utils and helpers that make our life easier.
 
 ## Features ✨
 
-1. **[Extensions][] 🔍**
-1. **[Log][] 📝**
-1. **[Operations][] 🚦**
-1. **[Utils][] 🍿**
+1. **Extensions 🔍**
+1. **Log 📝**
+1. **Operations 🚦**
+1. **Protocols 📖**
+1. **Utils 🍿**
 
 ## Installation 🔧
 
@@ -28,25 +29,15 @@ Prego supports iOS 11.0+ and requires Xcode 10.2.1  ( Swift 5.0 )
 If you use [CocoaPods][] to manage your dependencies, simply add Prego to your `Podfile`:
 
 ```ruby
-pod 'Prego', '~> 0.3'
+pod 'Prego', '~> 0.4'
 ```
-    
-Other options:    
-
-```ruby
-pod 'Prego/Extensions', '~> 0.3'
-pod 'Prego/Log', '~> 0.3'
-pod 'Prego/Operations', '~> 0.3'
-pod 'Prego/Utils', '~> 0.3'
-```
-
 
 ### Carthage
 
 If you use [Carthage][] to manage your dependencies, simply add Prego to your `Cartfile`:
 
 ```
-github "filipejtdias/prego" ~> 0.3
+github "filipejtdias/prego" ~> 0.4
 ```
 
 If you use Carthage to build your dependencies, make sure you have added `Prego.framework` to the 
@@ -65,12 +56,7 @@ the application linking to it should also include Prego.
 
 Filipe Dias, filipejtdias@gmail.com
 
-[Extensions]: https://github.com/filipejtdias/prego/tree/master/Prego/Classes/Extensions
-[Log]: https://github.com/filipejtdias/prego/tree/master/Prego/Classes/Log
-[Operations]: https://github.com/filipejtdias/prego/tree/master/Prego/Classes/Operations
-[Utils]: https://github.com/filipejtdias/prego/tree/master/Prego/Classes/Utils
 
 [Carthage]: https://github.com/Carthage/Carthage/#readme
 [CocoaPods]: https://cocoapods.org/
 [submodule]: https://git-scm.com/docs/git-submodule
-

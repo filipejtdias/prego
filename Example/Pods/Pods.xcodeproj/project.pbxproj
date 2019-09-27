@@ -168,6 +168,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		16D58AD1233E37E300366C4B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Protocols;
+			path = Sources/Protocols;
+			sourceTree = "<group>";
+		};
 		3260B2FCEEA035121F5D3321EE4D3243 /* Log */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,6 +254,7 @@
 				3260B2FCEEA035121F5D3321EE4D3243 /* Log */,
 				BAF6DF643B456AEEA128B332D4E5CF8D /* Operations */,
 				7453A091AE947EB5B7B321C81BEE846D /* Pod */,
+				16D58AD1233E37E300366C4B /* Protocols */,
 				4C7609B81E6DE05CA0313A7391B444C0 /* Support Files */,
 				5F0AF1278E92E5CA67BBF43256C05B7F /* Utils */,
 			);
