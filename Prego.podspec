@@ -19,5 +19,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Filipe Dias' => 'filipejtdias@gmail.com' }
   s.source           = { :git => 'https://github.com/filipejtdias/prego.git', :tag => s.version.to_s }
   s.frameworks       = ['Foundation', 'UIKit']
+
+  s.source_files = 'Sources/**/*'
   
 end

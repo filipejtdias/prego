@@ -1,15 +1,5 @@
 PODS:
-  - Prego (0.3.0):
-    - Prego/Enums (= 0.3.0)
-    - Prego/Extensions (= 0.3.0)
-    - Prego/Log (= 0.3.0)
-    - Prego/Operations (= 0.3.0)
-    - Prego/Utils (= 0.3.0)
-  - Prego/Enums (0.3.0)
-  - Prego/Extensions (0.3.0)
-  - Prego/Log (0.3.0)
-  - Prego/Operations (0.3.0)
-  - Prego/Utils (0.3.0)
+  - Prego (0.4.0)
 
 DEPENDENCIES:
   - Prego (from `../`)
@@ -19,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Prego: 82a5f99302246e348c27c618ca3b01b51eadf829
+  Prego: ca7a79b767e33b680c529cebe46cf6dda7f8beb1
 
 PODFILE CHECKSUM: 6494be119998d9d040a869bb5524cfe1085e2b2c
 
-COCOAPODS: 1.7.2
+COCOAPODS: 1.8.0

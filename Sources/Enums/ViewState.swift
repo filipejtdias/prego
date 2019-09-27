@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum ViewState<ViewModel, ErrorViewModel, LoadingViewModel, EmptyViewModel> {
+public enum ViewState<ViewModel, ErrorViewModel, LoadingViewModel, EmptyViewModel> {
 
     case loading(LoadingViewModel)
     case loaded(ViewModel)
