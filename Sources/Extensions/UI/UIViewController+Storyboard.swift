@@ -11,7 +11,7 @@ import UIKit
 /*
  USAGE
 
- enum Storyboard: String {
+enum Storyboard: String {
     case storyboardName = "MyStoryboard"
 }
 
@@ -37,7 +37,7 @@ extension Storyboardable where Self: UIViewController {
         return String(describing: self)
     }
 
-    static func viewController(for storyboard: String) -> Self {
+    public static func viewController(for storyboard: String) -> Self {
         let storyboard = UIStoryboard(name: storyboard, bundle: nil)
         guard let vc = storyboard.instantiateViewController(withIdentifier: storyboardID) as? Self else {
             fatalError("Could not instantiate initial storyboard with name: \(storyboardID)")
