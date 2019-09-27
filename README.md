@@ -16,6 +16,7 @@ This repository contains small utils and helpers that make our life easier.
 
 1. **Extensions 🔍**
 1. **Log 📝**
+1. **Networking 🔗**
 1. **Operations 🚦**
 1. **Protocols 📖**
 1. **Utils 🍿**
@@ -29,7 +30,7 @@ Prego supports iOS 11.0+ and requires Xcode 10.2.1  ( Swift 5.0 )
 If you use [CocoaPods][] to manage your dependencies, simply add Prego to your `Podfile`:
 
 ```ruby
-pod 'Prego', '~> 0.4'
+pod 'Prego', '~> 0.5'
 ```
 
 ### Carthage
@@ -37,7 +38,7 @@ pod 'Prego', '~> 0.4'
 If you use [Carthage][] to manage your dependencies, simply add Prego to your `Cartfile`:
 
 ```
-github "filipejtdias/prego" ~> 0.4
+github "filipejtdias/prego" ~> 0.5
 ```
 
 If you use Carthage to build your dependencies, make sure you have added `Prego.framework` to the 
