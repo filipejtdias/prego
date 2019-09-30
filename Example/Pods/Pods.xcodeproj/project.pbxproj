@@ -7,53 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02D6FD8D3E1CD738D217AB9324853636 /* UIViewController+Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A654B30EAFAA23519741FAE5C1A06F /* UIViewController+Segue.swift */; };
-		051D4F22319A11F259C89C488319A107 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBD3AC8C64EBFCE79F8E8CFDB307E58 /* Log.swift */; };
+		045D5E92A6876558EECEF9C7FD93B6C7 /* UITableView+NIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0052B176EAE8ED26B32DC1E1BB5DFB4D /* UITableView+NIB.swift */; };
 		0B2A085237913DDE9984CDD17EDC82A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		10ED30C3BC0711D6824A049ADC95C28E /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A860F0701741E63AA489FEDF4AD4D /* Array+Utils.swift */; };
-		1246B0003766BFE5D0DFE7AA6B763959 /* NSRange+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DD265E4CFB5BE8A9E6E033D7E19A8 /* NSRange+Utils.swift */; };
+		1AB64279C6AB4AAE3F441B9A1E433DCF /* UIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025BBD9E3C4AE54E6F7E39605D566460 /* UIViewController+Storyboard.swift */; };
 		1D7BEDE5C96543DAB1D90E70153C4D94 /* Pods-Prego_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B14716E175687382B7496E27D6AEDF /* Pods-Prego_Example-dummy.m */; };
-		20F4A89EBA24D882307F309568701688 /* HTTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63A4A30D5001B4571D12EB0B04D9E8D /* HTTPService.swift */; };
-		299FC52450290BD6473EFB8B9BE7F4FE /* UIView+NIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82459AFF7F0C21D2E9CD62BF2316C37 /* UIView+NIB.swift */; };
-		2F18DE311330D28F526BF72AD35B20EC /* UIView+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE8A5B191BA00EE1E1595F0ECB8D082 /* UIView+Debug.swift */; };
-		371F2F59A3AF5C3AED7696EA2AFF3F10 /* FileManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B455639B65D1D05E4A063880C82E26CD /* FileManagerType.swift */; };
-		39E8E0E91EC28ACFC7A7E235195E4528 /* FileStorageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5801A1D16C90842AF33AAD8CC334C04A /* FileStorageType.swift */; };
-		50B0FDCE3428C7D0DEF3896EB16A1A50 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88037357CA091774958D39003C9F9568 /* JSON.swift */; };
-		5732967EB7927E3880B954CE0E915C88 /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08029AA8341C825D446D0656E2E8832A /* Remote.swift */; };
-		5A60CA09A47D99E51145E8CB3C525F97 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25BB029E47B345B01A44C0F8C1040CB /* HTTPRequest.swift */; };
-		677F73AA870475257295BBCD71EB4765 /* HTTPSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5138B9EF7F3DB188C37C38C1ED66C2F3 /* HTTPSession.swift */; };
-		6873D4A748F003A8A78CA60D335093C3 /* String+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CE03BCCE95D8D60B7ACA3E15F38F8A /* String+Localizable.swift */; };
-		6E4C1A05FA85845EFF516CF808EA8F2D /* AnyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB86C24A9F0FD7730268676E1626BA2 /* AnyCollectionViewCell.swift */; };
-		73157A26FEB3E21B3A860B50348CC4A6 /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AB2AC6CCA0230591A063C5D35CFA8B /* FileStorage.swift */; };
-		74F225F276B362EEF066B9C8DB13E6A2 /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E0A0FD37456FE3D92FED8B34F94C93 /* ViewState.swift */; };
-		7909389273AF9AA965E44BBF3CBF82D5 /* Prego-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BC541548F96ABBE822E0080BA97650B /* Prego-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80FFAD3A124E7C63FB1B95FAF990BC1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		85917C29082C5794E8592F41ED7C9CF2 /* UICollectionView+NIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B5BDC4861575288FEAECEB69A0A01E /* UICollectionView+NIB.swift */; };
-		8F4C4508BF2B8F484298BFD776A97611 /* POperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C06D9669F7E7CABB3133FA0F2F39F5 /* POperation.swift */; };
-		92A7671A733F32404DFBE9F357DFAC38 /* Prego-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F88307BE24D37DE12D9CECB16CA43AD6 /* Prego-dummy.m */; };
-		950086DC08812F466846D564EBBC1215 /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF50E1D6DB3D6D6B7712FFFF2441C24 /* NetworkResponse.swift */; };
-		951C44788741F813067990A73CA3E241 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
-		9D01468CDA6F692F43B41B90BDFA14CB /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31FD722DD74CFF18AE4BA85443734C9 /* UIView+Utils.swift */; };
+		26961B295A5D8BC40F14FC0E1A3B1A0E /* UIViewController+Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB30F54DCB98BEA03D03DCAE299C4E /* UIViewController+Segue.swift */; };
+		29F1B5BBFA51462227B289EF7FB2D83A /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92A22F218793252A7D1AFEC96249EF9 /* ViewState.swift */; };
+		2A148F0916FB14857464F5DA98B12A50 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC83998FCBC283C829CEE9A10020D901 /* Coordinator.swift */; };
+		2A2435D6E94753A58C98F03C0654504B /* HTTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445F13433CB5F1A71551243F9CCC6CE8 /* HTTPService.swift */; };
+		2F7D08402D0207030A1B9B8AC3C542D9 /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6A7DB7B6C51651204D63354AA35E39 /* FileStorage.swift */; };
+		33D8EB7494E857EFB67CA81E459C3B32 /* String+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5A31A8F7F4ADE4EB29CB46251C142D /* String+Localizable.swift */; };
+		34AE7FE4758AA338BCB5CF1AB19C7D66 /* HTTPSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21168BE9BB8C2B20B02558AA3A2B8EE7 /* HTTPSession.swift */; };
+		39E8503C7EE1FE2326378C76F3D2318A /* Prego-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD4F3CA4FD0C654700BF57A296F0FBE /* Prego-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42E2108367B81F6C025C76B87CD7E9B9 /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC31F8F320C73E354EB887DC309CC56 /* Array+Utils.swift */; };
+		4587EF26C17A13FEA67498CD2B2A026D /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903252257C9628D9133CAE61D222B17 /* Date+Utils.swift */; };
+		4E77048EC150DB8B15E327A97BFF6C1A /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2652B88D9DFF6927EDFB13FC2588FA56 /* Log.swift */; };
+		50FC5AB2A6FCCE95EE39951874DA8EDF /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4791A505FED89816AA551D12EDDD12 /* JSON.swift */; };
+		534B8ECC94049DAE0E3295421188A0E7 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF606150CB7B7975FE7A682ED4E78BD3 /* Bindable.swift */; };
+		659C030BE831DA26978CFB5CAC2F35D5 /* UIView+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2939E13D8EE502C0E3A6168FAD19398A /* UIView+Debug.swift */; };
+		6F339128A45B8C0A18306D05E1773D8E /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2752B9B797584C13514A7DA6AFEB3390 /* String+Utils.swift */; };
+		75526BA0E047FE02126CE7ECBF12FCCF /* NSRange+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271328DB302F2FACAEFC566061ED5BA6 /* NSRange+Utils.swift */; };
+		78ED75E7A29BA29DF159EB1572319900 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0A3D5A2C58C697CF1A03939080003E /* NetworkError.swift */; };
+		8032CD5A095C5D18ADD7BB889886A4E1 /* Prego-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3191E1040CE2E7BA965398F189C44CD8 /* Prego-dummy.m */; };
+		842828E57B8BE5D6E9DE2EB23F6BF276 /* NSObject+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8828A7FDE9ED8C2F574A1CFA8173F0 /* NSObject+Utils.swift */; };
+		9CE6C603DE730E367D2292405F1D542C /* UICollectionView+NIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A1791A3A2F8DA1E9551D5CD79C452C /* UICollectionView+NIB.swift */; };
+		A006D3BB15C3888287B7A85D0DA790CD /* ResourceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B6E6415DAA88E9D681874F0F9C783B /* ResourceLoader.swift */; };
 		A4C07E2532F6EB8091C5417045F34525 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		A51C35A432132E3122D6EA0829423204 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA519D901FE32F7112918A47B16C680 /* Platform.swift */; };
-		A72F391D8885F84390DAD117198A3DCE /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3844088F2DEA53A37C113BA62822AF25 /* Bindable.swift */; };
-		AAF818B31D1A14C844C4674B7447EEBC /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876C10252124A995D12CFCBE0E0B1E81 /* String+Utils.swift */; };
-		B4C60FBCBF843F1261D0E0A7EEBC6833 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9806805782836C4E750F70FE93DE70 /* HTTPMethod.swift */; };
-		BAA13CC34747C15D4B44C65761A92DFF /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE76C58215D0CDCC247864532E1293E /* UIColor+Utils.swift */; };
-		BDA988758C8DD98BCA5EB657D65B7CD1 /* HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE7F5D87BD98EAE97A5C1BD5EB36EC6 /* HTTPResponse.swift */; };
+		AA10E7E99485E5BCDA8CF782C022A19B /* HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB76CAF32D4B1A4B2AA2D6BC2A97999 /* HTTPResponse.swift */; };
+		AF115963ADDCD8C8A2D80F11A32E1E07 /* ResourceLoaderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0F2A142943D9CC9CC1E46D12DE9DB1 /* ResourceLoaderError.swift */; };
+		AF280DE70D78C677C17DF5EE15648515 /* UIView+NIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8B6EB4C570152DC2C7B3CB9D477AAB /* UIView+NIB.swift */; };
+		BBDB88BB8E4672BD87BE387566D8C304 /* Dictionary+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC01693814936D3505E2B56EAD005A22 /* Dictionary+Utils.swift */; };
 		BF6CEAD43544F633893B0CF06620CBED /* Pods-Prego_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E234ED86EB4941034E79A901FFD5843 /* Pods-Prego_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C42B09128F3DB082C50180EE6527F2C0 /* AnyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB16CAC32A99DC63856AC370073970F9 /* AnyCollectionViewCell.swift */; };
 		C551A6F95E614420E2D0FD72C9038B47 /* Pods-Prego_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F64A893C94EB84B903EB1B67E5D7A48E /* Pods-Prego_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC2E6AE2CE90A150C6FDDD58C8EC43CD /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8002331049FDCFFB8527F6FF1BD73FD8 /* Date+Utils.swift */; };
-		D337CEE6FA55429864F2D7380B7A200F /* Dictionary+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24032C668A6737F90855BB3843CE07C /* Dictionary+Utils.swift */; };
-		D57E12B09651B2DF70A0AA5D7C9DC31A /* POperationQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C9AD69D0C8CC7EA9EE842946C59176 /* POperationQueue.swift */; };
-		DACF9C0A92A261047F09AC401B2B6BDC /* UITableView+NIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D41928C248C242EA1A7F76E4B858A62 /* UITableView+NIB.swift */; };
-		E2BFEA1197654FE5BCA8A9E15DCAF77A /* NSObject+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7BC7F8688B4405E12A14E8DEE2454 /* NSObject+Utils.swift */; };
-		E78696B92407101466752E2DC0F287A0 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EFEBBEAAD00F5958A4C8C8B0CE974C /* AppInfo.swift */; };
-		E80B8C204FDCDD1919EC1851FB905B3E /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0881CFFEDA9F61E2E25F6B3C0C15795B /* NetworkError.swift */; };
-		ED36F157EF31CC80193E77D1AF08202A /* LogPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C370C26CBB48F7B88CB1DA7B318ADAE2 /* LogPermissions.swift */; };
-		F73F4A9185EE598C15CF029729B56E8F /* UIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9B58B83370E230669903389B77AB36 /* UIViewController+Storyboard.swift */; };
-		FA93FB4AE3A50917F8AE6624FB930253 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661001F42FF62762CA1A1C662CF1C92B /* Coordinator.swift */; };
+		C6926BA63A7AC7FA108A568A9C7F15E8 /* LogPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F85C291A36868FF6F6E2CCACF22318B /* LogPermissions.swift */; };
+		CDCF542454889C0A25D54B44C633DE30 /* FileManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79127DB4F5A3E28A68275ADCBB47B067 /* FileManagerType.swift */; };
+		CEEC7F644075AE56F07420551394AF44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		D21866A0D3CBE34DF984CA2A48A4EDB5 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6392EA63F9577B4958D96D9F35AE16B6 /* AppInfo.swift */; };
+		D39D4C2807312CDAA4741DCC89260601 /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C0D87F94A2EB84667D2AB1D39CDF11 /* NetworkResponse.swift */; };
+		D5FF4E9766D4A2A17B7D24F899532BF8 /* FileStorageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FF6F4404F28F417FBA6DA84B256AEB /* FileStorageType.swift */; };
+		D7FF2F54453111122716066612FF152A /* POperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52747AC9D816E0F462601FCA18C43E3A /* POperation.swift */; };
+		DE42953DE633FE4CDCC88BFD1AA30D99 /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E0FB61D26877BA63CE61B323A048AF /* UIColor+Utils.swift */; };
+		E5B9EB392DE05C56ED82018A03DBE113 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9AA4F7FDD7BDB20E76D1E5D6EB84C5 /* Platform.swift */; };
+		E7DFD8F056663FFEA63CFB706793EDDC /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC6C6E18194DF943863BE4E96F54374 /* HTTPRequest.swift */; };
+		E94CFC55EAC9405F27DDD6A7F7F48387 /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E1A0256838FD834398B7ADF774803C /* UIView+Utils.swift */; };
+		EBA8E6043C7375C5400B2CB32B85D622 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		ED0DB50A03DCD5C5F3BD28F347C59C21 /* POperationQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08906290484A39126F1F3360BCCC6A8 /* POperationQueue.swift */; };
+		F684FBAEE746C044B75293D614A0535E /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AE570ADF86743541B4D04D52D9A7D /* Remote.swift */; };
 		FBE5D8E8F49B78B52D39AE903050721E /* Pods-Prego_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65CEFD3D98B6A33233886FB0B0E88D /* Pods-Prego_Tests-dummy.m */; };
+		FE7E3F0007463FDDE29ADA87FA790ACE /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF1A7CD74C5EFEFE006C9F3D43B1AD4 /* HTTPMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,78 +76,89 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0052B176EAE8ED26B32DC1E1BB5DFB4D /* UITableView+NIB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITableView+NIB.swift"; sourceTree = "<group>"; };
+		00FF6F4404F28F417FBA6DA84B256AEB /* FileStorageType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileStorageType.swift; sourceTree = "<group>"; };
 		01168B12D98E129A395CB0753217A629 /* Pods-Prego_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Prego_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		025BBD9E3C4AE54E6F7E39605D566460 /* UIViewController+Storyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboard.swift"; sourceTree = "<group>"; };
 		02DF5C863C2D03F2279B0D611A4FD8FD /* Pods-Prego_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Prego_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		08029AA8341C825D446D0656E2E8832A /* Remote.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
-		0881CFFEDA9F61E2E25F6B3C0C15795B /* NetworkError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		0A1B6AB17799A298DA897865EE3327D0 /* Pods-Prego_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Prego_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0E04E4EFC0649DC734FD6325FDC3371A /* Prego.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Prego.modulemap; sourceTree = "<group>"; };
 		1347983FBBE6911549D48A19E09EBA13 /* Pods-Prego_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Prego_Example-Info.plist"; sourceTree = "<group>"; };
-		1BC541548F96ABBE822E0080BA97650B /* Prego-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Prego-umbrella.h"; sourceTree = "<group>"; };
+		148B4938D9FBCB0C76E951298268965B /* Prego-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Prego-Info.plist"; sourceTree = "<group>"; };
 		1D277AD1EF23FC88146FF939151BB9CD /* Pods_Prego_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Prego_Example.framework; path = "Pods-Prego_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2414F690948D91E84B88FC0F07AC54C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		21168BE9BB8C2B20B02558AA3A2B8EE7 /* HTTPSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPSession.swift; sourceTree = "<group>"; };
 		247913827157AB59617E2414384D23E7 /* Pods-Prego_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Prego_Tests.modulemap"; sourceTree = "<group>"; };
+		26392574CF6B01A762D9888F6060E68E /* Prego.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Prego.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2652B88D9DFF6927EDFB13FC2588FA56 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		271328DB302F2FACAEFC566061ED5BA6 /* NSRange+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSRange+Utils.swift"; sourceTree = "<group>"; };
+		2752B9B797584C13514A7DA6AFEB3390 /* String+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
+		2903252257C9628D9133CAE61D222B17 /* Date+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		2939E13D8EE502C0E3A6168FAD19398A /* UIView+Debug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Debug.swift"; sourceTree = "<group>"; };
 		294330927C48333BCE74BAE4075551CA /* Pods_Prego_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Prego_Tests.framework; path = "Pods-Prego_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A1646D037B06CB2387A7E6A2F7376D8 /* Pods-Prego_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Prego_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2D41928C248C242EA1A7F76E4B858A62 /* UITableView+NIB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITableView+NIB.swift"; sourceTree = "<group>"; };
-		2D9B58B83370E230669903389B77AB36 /* UIViewController+Storyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboard.swift"; sourceTree = "<group>"; };
+		2E6A7DB7B6C51651204D63354AA35E39 /* FileStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
+		2F85C291A36868FF6F6E2CCACF22318B /* LogPermissions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogPermissions.swift; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		322DD265E4CFB5BE8A9E6E033D7E19A8 /* NSRange+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSRange+Utils.swift"; sourceTree = "<group>"; };
-		32EFEBBEAAD00F5958A4C8C8B0CE974C /* AppInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
-		3844088F2DEA53A37C113BA62822AF25 /* Bindable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
-		38C85498660AB8935DC781E5716F4BD7 /* Prego.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Prego.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3A9806805782836C4E750F70FE93DE70 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
-		3DE76C58215D0CDCC247864532E1293E /* UIColor+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Utils.swift"; sourceTree = "<group>"; };
+		3191E1040CE2E7BA965398F189C44CD8 /* Prego-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Prego-dummy.m"; sourceTree = "<group>"; };
+		34FD1D5A4E251D7C5680768B0BA2FCB8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3BC31F8F320C73E354EB887DC309CC56 /* Array+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Utils.swift"; sourceTree = "<group>"; };
+		3C9AA4F7FDD7BDB20E76D1E5D6EB84C5 /* Platform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		43B5BDC4861575288FEAECEB69A0A01E /* UICollectionView+NIB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UICollectionView+NIB.swift"; sourceTree = "<group>"; };
-		4DA519D901FE32F7112918A47B16C680 /* Platform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		445F13433CB5F1A71551243F9CCC6CE8 /* HTTPService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPService.swift; sourceTree = "<group>"; };
+		4A8B6EB4C570152DC2C7B3CB9D477AAB /* UIView+NIB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+NIB.swift"; sourceTree = "<group>"; };
 		4E234ED86EB4941034E79A901FFD5843 /* Pods-Prego_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Prego_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5138B9EF7F3DB188C37C38C1ED66C2F3 /* HTTPSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPSession.swift; sourceTree = "<group>"; };
-		5186FDCE4CE219D05198F3EEA4635A04 /* Prego-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Prego-Info.plist"; sourceTree = "<group>"; };
-		5801A1D16C90842AF33AAD8CC334C04A /* FileStorageType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileStorageType.swift; sourceTree = "<group>"; };
+		4FF1A7CD74C5EFEFE006C9F3D43B1AD4 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		52747AC9D816E0F462601FCA18C43E3A /* POperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = POperation.swift; sourceTree = "<group>"; };
 		5A65CEFD3D98B6A33233886FB0B0E88D /* Pods-Prego_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Prego_Tests-dummy.m"; sourceTree = "<group>"; };
-		63E0A0FD37456FE3D92FED8B34F94C93 /* ViewState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
-		661001F42FF62762CA1A1C662CF1C92B /* Coordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		6FE8A5B191BA00EE1E1595F0ECB8D082 /* UIView+Debug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Debug.swift"; sourceTree = "<group>"; };
-		7CB86C24A9F0FD7730268676E1626BA2 /* AnyCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnyCollectionViewCell.swift; sourceTree = "<group>"; };
-		8002331049FDCFFB8527F6FF1BD73FD8 /* Date+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		5B8828A7FDE9ED8C2F574A1CFA8173F0 /* NSObject+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSObject+Utils.swift"; sourceTree = "<group>"; };
+		60A1791A3A2F8DA1E9551D5CD79C452C /* UICollectionView+NIB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UICollectionView+NIB.swift"; sourceTree = "<group>"; };
+		6392EA63F9577B4958D96D9F35AE16B6 /* AppInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		6A0A3D5A2C58C697CF1A03939080003E /* NetworkError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		6A0F2A142943D9CC9CC1E46D12DE9DB1 /* ResourceLoaderError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResourceLoaderError.swift; sourceTree = "<group>"; };
+		6D4791A505FED89816AA551D12EDDD12 /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		79127DB4F5A3E28A68275ADCBB47B067 /* FileManagerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileManagerType.swift; sourceTree = "<group>"; };
+		7CAB30F54DCB98BEA03D03DCAE299C4E /* UIViewController+Segue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Segue.swift"; sourceTree = "<group>"; };
 		814536D159C2825712198C4C980C69FC /* Pods-Prego_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Prego_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		81A69C1C8FFF58DF9B7A3670F0BD9C0C /* Pods-Prego_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Prego_Example.modulemap"; sourceTree = "<group>"; };
-		876C10252124A995D12CFCBE0E0B1E81 /* String+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
-		88037357CA091774958D39003C9F9568 /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
-		8BBD3AC8C64EBFCE79F8E8CFDB307E58 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
-		8EE7F5D87BD98EAE97A5C1BD5EB36EC6 /* HTTPResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPResponse.swift; sourceTree = "<group>"; };
-		94B770A59652405A079DC383A59532C5 /* Prego-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Prego-prefix.pch"; sourceTree = "<group>"; };
-		98AB2AC6CCA0230591A063C5D35CFA8B /* FileStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
-		9B4E974F8228B37D00B8D9758F746571 /* Prego.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Prego.xcconfig; sourceTree = "<group>"; };
+		89C0D87F94A2EB84667D2AB1D39CDF11 /* NetworkResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
+		8F83F104CDE3A562AA8D3C7DA2A05309 /* Prego-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Prego-prefix.pch"; sourceTree = "<group>"; };
+		96E0FB61D26877BA63CE61B323A048AF /* UIColor+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Utils.swift"; sourceTree = "<group>"; };
+		998297E060E2821B3D1E520EBD089F47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A25BB029E47B345B01A44C0F8C1040CB /* HTTPRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
-		A9E7BC7F8688B4405E12A14E8DEE2454 /* NSObject+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSObject+Utils.swift"; sourceTree = "<group>"; };
+		9FEBD51722B4D75E1B5C242AB698F290 /* Prego.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Prego.xcconfig; sourceTree = "<group>"; };
 		AD61CB47B534EFFDC57712937A08148B /* Pods-Prego_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Prego_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ADF50E1D6DB3D6D6B7712FFFF2441C24 /* NetworkResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
+		AF606150CB7B7975FE7A682ED4E78BD3 /* Bindable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		AFD4F3CA4FD0C654700BF57A296F0FBE /* Prego-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Prego-umbrella.h"; sourceTree = "<group>"; };
 		B2530A9C34CD14A0B41F4F154BE787E5 /* Pods-Prego_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Prego_Tests-Info.plist"; sourceTree = "<group>"; };
-		B455639B65D1D05E4A063880C82E26CD /* FileManagerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileManagerType.swift; sourceTree = "<group>"; };
-		B63A4A30D5001B4571D12EB0B04D9E8D /* HTTPService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPService.swift; sourceTree = "<group>"; };
-		BE43BCEAEBAD38877A9EAAC149573869 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		C1C9AD69D0C8CC7EA9EE842946C59176 /* POperationQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = POperationQueue.swift; sourceTree = "<group>"; };
-		C2A654B30EAFAA23519741FAE5C1A06F /* UIViewController+Segue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Segue.swift"; sourceTree = "<group>"; };
-		C370C26CBB48F7B88CB1DA7B318ADAE2 /* LogPermissions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogPermissions.swift; sourceTree = "<group>"; };
-		C6CE03BCCE95D8D60B7ACA3E15F38F8A /* String+Localizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Localizable.swift"; sourceTree = "<group>"; };
-		CB4A860F0701741E63AA489FEDF4AD4D /* Array+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Utils.swift"; sourceTree = "<group>"; };
+		BAC6C6E18194DF943863BE4E96F54374 /* HTTPRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		BF5A31A8F7F4ADE4EB29CB46251C142D /* String+Localizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Localizable.swift"; sourceTree = "<group>"; };
+		BF62B128346ED852DCAC575480E14F35 /* Prego.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Prego.modulemap; sourceTree = "<group>"; };
+		D08906290484A39126F1F3360BCCC6A8 /* POperationQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = POperationQueue.swift; sourceTree = "<group>"; };
 		D0B14716E175687382B7496E27D6AEDF /* Pods-Prego_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Prego_Example-dummy.m"; sourceTree = "<group>"; };
-		D24032C668A6737F90855BB3843CE07C /* Dictionary+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Dictionary+Utils.swift"; sourceTree = "<group>"; };
-		D31FD722DD74CFF18AE4BA85443734C9 /* UIView+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
-		D7C06D9669F7E7CABB3133FA0F2F39F5 /* POperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = POperation.swift; sourceTree = "<group>"; };
+		D6B6E6415DAA88E9D681874F0F9C783B /* ResourceLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResourceLoader.swift; sourceTree = "<group>"; };
+		DB16CAC32A99DC63856AC370073970F9 /* AnyCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnyCollectionViewCell.swift; sourceTree = "<group>"; };
+		E3E1A0256838FD834398B7ADF774803C /* UIView+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
 		E77D78C66DFB761163DD1216548FF390 /* Pods-Prego_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Prego_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E9E901D3AB4F882BDC35FED9A7E48EC4 /* Pods-Prego_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Prego_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EC83998FCBC283C829CEE9A10020D901 /* Coordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		EE7AE570ADF86743541B4D04D52D9A7D /* Remote.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
 		F1D07DF688537BC0E8A85312283E921B /* Pods-Prego_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Prego_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F505E9F6EF3A7CF5DED1A4C9F424F71D /* Prego.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Prego.framework; path = Prego.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64A893C94EB84B903EB1B67E5D7A48E /* Pods-Prego_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Prego_Example-umbrella.h"; sourceTree = "<group>"; };
-		F82459AFF7F0C21D2E9CD62BF2316C37 /* UIView+NIB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+NIB.swift"; sourceTree = "<group>"; };
-		F88307BE24D37DE12D9CECB16CA43AD6 /* Prego-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Prego-dummy.m"; sourceTree = "<group>"; };
+		F92A22F218793252A7D1AFEC96249EF9 /* ViewState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
+		FC01693814936D3505E2B56EAD005A22 /* Dictionary+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Dictionary+Utils.swift"; sourceTree = "<group>"; };
+		FFB76CAF32D4B1A4B2AA2D6BC2A97999 /* HTTPResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3B29022287CCC7056E063A79CD78864D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEC7F644075AE56F07420551394AF44 /* Foundation.framework in Frameworks */,
+				EBA8E6043C7375C5400B2CB32B85D622 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		40FB3DF71CD8065265E55E03D91DB70A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -162,26 +175,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4BFEE72469719AF11055503E97C0D12 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80FFAD3A124E7C63FB1B95FAF990BC1B /* Foundation.framework in Frameworks */,
-				951C44788741F813067990A73CA3E241 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06E9B138783EE69D61501406CB709FFB /* Pod */ = {
+		0979923721497EACA14B535D3990B8AC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2414F690948D91E84B88FC0F07AC54C7 /* LICENSE */,
-				38C85498660AB8935DC781E5716F4BD7 /* Prego.podspec */,
-				BE43BCEAEBAD38877A9EAAC149573869 /* README.md */,
+				34FD1D5A4E251D7C5680768B0BA2FCB8 /* LICENSE */,
+				26392574CF6B01A762D9888F6060E68E /* Prego.podspec */,
+				998297E060E2821B3D1E520EBD089F47 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		1251E8C986307BA5EFE45C30CF035D99 /* ResourceLoader */ = {
+			isa = PBXGroup;
+			children = (
+				D6B6E6415DAA88E9D681874F0F9C783B /* ResourceLoader.swift */,
+				6A0F2A142943D9CC9CC1E46D12DE9DB1 /* ResourceLoaderError.swift */,
+			);
+			name = ResourceLoader;
+			path = Sources/ResourceLoader;
 			sourceTree = "<group>";
 		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
@@ -192,32 +206,47 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2B41B215CB093708C7831FFEE924A68A /* Development Pods */ = {
+		317B85CA8659068C2AC3A3CD61ED2EEF /* Prego */ = {
 			isa = PBXGroup;
 			children = (
-				592AD786734FD0768F458F0AACCE5F24 /* Prego */,
+				C915A651881C173ACF664A70E9176BB2 /* Enums */,
+				3438E51C78EE3B3B6A17174DA6AC06C6 /* Extensions */,
+				82656D75B39B74614442A2B827C99E74 /* Log */,
+				6F292E04938D0779A3D4F0167E7B1B7A /* Network */,
+				DD9A1E134281D7E2C11A5D06D057FC4B /* Operations */,
+				0979923721497EACA14B535D3990B8AC /* Pod */,
+				D9F8C29B1D4387EA1046BF8F428BE34E /* Protocols */,
+				1251E8C986307BA5EFE45C30CF035D99 /* ResourceLoader */,
+				81CC91BBCE0FC00B2FB191C4E0D996CF /* Storage */,
+				35FA9E4677AB966431B9463B2605CA35 /* Support Files */,
+				601E6C28FBB28F5D1167F18E54C349F2 /* Utils */,
 			);
-			name = "Development Pods";
+			name = Prego;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		318BE50324140E42C781A3C5F1CC00AD /* Enums */ = {
+		3438E51C78EE3B3B6A17174DA6AC06C6 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				0881CFFEDA9F61E2E25F6B3C0C15795B /* NetworkError.swift */,
-				63E0A0FD37456FE3D92FED8B34F94C93 /* ViewState.swift */,
+				B3DFEF7A1EA4801F58F3582EDD56A406 /* Foundation */,
+				5530A1FE7F8882AE5DBFBE485AE8A9FD /* UI */,
 			);
-			name = Enums;
-			path = Sources/Enums;
+			name = Extensions;
+			path = Sources/Extensions;
 			sourceTree = "<group>";
 		};
-		3BEC08FC67CB27616A054C624F8FA975 /* Operations */ = {
+		35FA9E4677AB966431B9463B2605CA35 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D7C06D9669F7E7CABB3133FA0F2F39F5 /* POperation.swift */,
-				C1C9AD69D0C8CC7EA9EE842946C59176 /* POperationQueue.swift */,
+				BF62B128346ED852DCAC575480E14F35 /* Prego.modulemap */,
+				9FEBD51722B4D75E1B5C242AB698F290 /* Prego.xcconfig */,
+				3191E1040CE2E7BA965398F189C44CD8 /* Prego-dummy.m */,
+				148B4938D9FBCB0C76E951298268965B /* Prego-Info.plist */,
+				8F83F104CDE3A562AA8D3C7DA2A05309 /* Prego-prefix.pch */,
+				AFD4F3CA4FD0C654700BF57A296F0FBE /* Prego-umbrella.h */,
 			);
-			name = Operations;
-			path = Sources/Operations;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Prego";
 			sourceTree = "<group>";
 		};
 		3F2F705DE089854FCC0A93148DAFE1F5 /* Targets Support Files */ = {
@@ -227,23 +256,6 @@
 				C29284FE67AE15BC181EA305D8FB6DB5 /* Pods-Prego_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		42414ECC850A5B947983A2A6F778C908 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				7CB86C24A9F0FD7730268676E1626BA2 /* AnyCollectionViewCell.swift */,
-				43B5BDC4861575288FEAECEB69A0A01E /* UICollectionView+NIB.swift */,
-				3DE76C58215D0CDCC247864532E1293E /* UIColor+Utils.swift */,
-				2D41928C248C242EA1A7F76E4B858A62 /* UITableView+NIB.swift */,
-				6FE8A5B191BA00EE1E1595F0ECB8D082 /* UIView+Debug.swift */,
-				F82459AFF7F0C21D2E9CD62BF2316C37 /* UIView+NIB.swift */,
-				D31FD722DD74CFF18AE4BA85443734C9 /* UIView+Utils.swift */,
-				C2A654B30EAFAA23519741FAE5C1A06F /* UIViewController+Segue.swift */,
-				2D9B58B83370E230669903389B77AB36 /* UIViewController+Storyboard.swift */,
-			);
-			name = UI;
-			path = UI;
 			sourceTree = "<group>";
 		};
 		45635F95F7AFAACA598767047EA5F6F6 /* Products */ = {
@@ -256,70 +268,72 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		592AD786734FD0768F458F0AACCE5F24 /* Prego */ = {
+		5530A1FE7F8882AE5DBFBE485AE8A9FD /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				318BE50324140E42C781A3C5F1CC00AD /* Enums */,
-				CCD94042D88EE21D37FA09AB17071632 /* Extensions */,
-				5DB1EFA8D9AA0213C922475EDD436528 /* Log */,
-				E06DCFDD70842F7800709D78E03C6058 /* Network */,
-				3BEC08FC67CB27616A054C624F8FA975 /* Operations */,
-				06E9B138783EE69D61501406CB709FFB /* Pod */,
-				AC6C095534BEDECC4117D14FDB143898 /* Protocols */,
-				FAD1D8F7B64EA530229C3CED6FAFDB92 /* Storage */,
-				9EA714D7A7D97DA6EEF36DA53A846A47 /* Support Files */,
-				861B5A474F115AF2A8F4B6280B586539 /* Utils */,
+				DB16CAC32A99DC63856AC370073970F9 /* AnyCollectionViewCell.swift */,
+				60A1791A3A2F8DA1E9551D5CD79C452C /* UICollectionView+NIB.swift */,
+				96E0FB61D26877BA63CE61B323A048AF /* UIColor+Utils.swift */,
+				0052B176EAE8ED26B32DC1E1BB5DFB4D /* UITableView+NIB.swift */,
+				2939E13D8EE502C0E3A6168FAD19398A /* UIView+Debug.swift */,
+				4A8B6EB4C570152DC2C7B3CB9D477AAB /* UIView+NIB.swift */,
+				E3E1A0256838FD834398B7ADF774803C /* UIView+Utils.swift */,
+				7CAB30F54DCB98BEA03D03DCAE299C4E /* UIViewController+Segue.swift */,
+				025BBD9E3C4AE54E6F7E39605D566460 /* UIViewController+Storyboard.swift */,
 			);
-			name = Prego;
-			path = ../..;
+			name = UI;
+			path = UI;
 			sourceTree = "<group>";
 		};
-		5955A71DCE7A6485655A43846B75305C /* Protocols */ = {
+		601E6C28FBB28F5D1167F18E54C349F2 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				3A9806805782836C4E750F70FE93DE70 /* HTTPMethod.swift */,
-				A25BB029E47B345B01A44C0F8C1040CB /* HTTPRequest.swift */,
-				8EE7F5D87BD98EAE97A5C1BD5EB36EC6 /* HTTPResponse.swift */,
-				B63A4A30D5001B4571D12EB0B04D9E8D /* HTTPService.swift */,
-				5138B9EF7F3DB188C37C38C1ED66C2F3 /* HTTPSession.swift */,
-			);
-			name = Protocols;
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		5DB1EFA8D9AA0213C922475EDD436528 /* Log */ = {
-			isa = PBXGroup;
-			children = (
-				8BBD3AC8C64EBFCE79F8E8CFDB307E58 /* Log.swift */,
-				C370C26CBB48F7B88CB1DA7B318ADAE2 /* LogPermissions.swift */,
-			);
-			name = Log;
-			path = Sources/Log;
-			sourceTree = "<group>";
-		};
-		861B5A474F115AF2A8F4B6280B586539 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				32EFEBBEAAD00F5958A4C8C8B0CE974C /* AppInfo.swift */,
-				88037357CA091774958D39003C9F9568 /* JSON.swift */,
-				4DA519D901FE32F7112918A47B16C680 /* Platform.swift */,
+				6392EA63F9577B4958D96D9F35AE16B6 /* AppInfo.swift */,
+				6D4791A505FED89816AA551D12EDDD12 /* JSON.swift */,
+				3C9AA4F7FDD7BDB20E76D1E5D6EB84C5 /* Platform.swift */,
 			);
 			name = Utils;
 			path = Sources/Utils;
 			sourceTree = "<group>";
 		};
-		9EA714D7A7D97DA6EEF36DA53A846A47 /* Support Files */ = {
+		64D7FE9A16C5FE87B60305D63CF29DE1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0E04E4EFC0649DC734FD6325FDC3371A /* Prego.modulemap */,
-				9B4E974F8228B37D00B8D9758F746571 /* Prego.xcconfig */,
-				F88307BE24D37DE12D9CECB16CA43AD6 /* Prego-dummy.m */,
-				5186FDCE4CE219D05198F3EEA4635A04 /* Prego-Info.plist */,
-				94B770A59652405A079DC383A59532C5 /* Prego-prefix.pch */,
-				1BC541548F96ABBE822E0080BA97650B /* Prego-umbrella.h */,
+				317B85CA8659068C2AC3A3CD61ED2EEF /* Prego */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Prego";
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6F292E04938D0779A3D4F0167E7B1B7A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				89C0D87F94A2EB84667D2AB1D39CDF11 /* NetworkResponse.swift */,
+				EE7AE570ADF86743541B4D04D52D9A7D /* Remote.swift */,
+				FA3ADE2D4D6ED1DC18F8DA7B8AC893A9 /* Protocols */,
+			);
+			name = Network;
+			path = Sources/Network;
+			sourceTree = "<group>";
+		};
+		81CC91BBCE0FC00B2FB191C4E0D996CF /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				79127DB4F5A3E28A68275ADCBB47B067 /* FileManagerType.swift */,
+				2E6A7DB7B6C51651204D63354AA35E39 /* FileStorage.swift */,
+				00FF6F4404F28F417FBA6DA84B256AEB /* FileStorageType.swift */,
+			);
+			name = Storage;
+			path = Sources/Storage;
+			sourceTree = "<group>";
+		};
+		82656D75B39B74614442A2B827C99E74 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				2652B88D9DFF6927EDFB13FC2588FA56 /* Log.swift */,
+				2F85C291A36868FF6F6E2CCACF22318B /* LogPermissions.swift */,
+			);
+			name = Log;
+			path = Sources/Log;
 			sourceTree = "<group>";
 		};
 		A531DA688D6BAF3A0F9020BD10546B9F /* Pods-Prego_Example */ = {
@@ -339,26 +353,16 @@
 			path = "Target Support Files/Pods-Prego_Example";
 			sourceTree = "<group>";
 		};
-		AC6C095534BEDECC4117D14FDB143898 /* Protocols */ = {
+		B3DFEF7A1EA4801F58F3582EDD56A406 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				3844088F2DEA53A37C113BA62822AF25 /* Bindable.swift */,
-				661001F42FF62762CA1A1C662CF1C92B /* Coordinator.swift */,
-			);
-			name = Protocols;
-			path = Sources/Protocols;
-			sourceTree = "<group>";
-		};
-		AEDA997CE4CB0EBC069E16F53A714C47 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				CB4A860F0701741E63AA489FEDF4AD4D /* Array+Utils.swift */,
-				8002331049FDCFFB8527F6FF1BD73FD8 /* Date+Utils.swift */,
-				D24032C668A6737F90855BB3843CE07C /* Dictionary+Utils.swift */,
-				A9E7BC7F8688B4405E12A14E8DEE2454 /* NSObject+Utils.swift */,
-				322DD265E4CFB5BE8A9E6E033D7E19A8 /* NSRange+Utils.swift */,
-				C6CE03BCCE95D8D60B7ACA3E15F38F8A /* String+Localizable.swift */,
-				876C10252124A995D12CFCBE0E0B1E81 /* String+Utils.swift */,
+				3BC31F8F320C73E354EB887DC309CC56 /* Array+Utils.swift */,
+				2903252257C9628D9133CAE61D222B17 /* Date+Utils.swift */,
+				FC01693814936D3505E2B56EAD005A22 /* Dictionary+Utils.swift */,
+				5B8828A7FDE9ED8C2F574A1CFA8173F0 /* NSObject+Utils.swift */,
+				271328DB302F2FACAEFC566061ED5BA6 /* NSRange+Utils.swift */,
+				BF5A31A8F7F4ADE4EB29CB46251C142D /* String+Localizable.swift */,
+				2752B9B797584C13514A7DA6AFEB3390 /* String+Utils.swift */,
 			);
 			name = Foundation;
 			path = Foundation;
@@ -380,36 +384,45 @@
 			path = "Target Support Files/Pods-Prego_Tests";
 			sourceTree = "<group>";
 		};
-		CCD94042D88EE21D37FA09AB17071632 /* Extensions */ = {
+		C915A651881C173ACF664A70E9176BB2 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
-				AEDA997CE4CB0EBC069E16F53A714C47 /* Foundation */,
-				42414ECC850A5B947983A2A6F778C908 /* UI */,
+				6A0A3D5A2C58C697CF1A03939080003E /* NetworkError.swift */,
+				F92A22F218793252A7D1AFEC96249EF9 /* ViewState.swift */,
 			);
-			name = Extensions;
-			path = Sources/Extensions;
+			name = Enums;
+			path = Sources/Enums;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2B41B215CB093708C7831FFEE924A68A /* Development Pods */,
+				64D7FE9A16C5FE87B60305D63CF29DE1 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				45635F95F7AFAACA598767047EA5F6F6 /* Products */,
 				3F2F705DE089854FCC0A93148DAFE1F5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E06DCFDD70842F7800709D78E03C6058 /* Network */ = {
+		D9F8C29B1D4387EA1046BF8F428BE34E /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				ADF50E1D6DB3D6D6B7712FFFF2441C24 /* NetworkResponse.swift */,
-				08029AA8341C825D446D0656E2E8832A /* Remote.swift */,
-				5955A71DCE7A6485655A43846B75305C /* Protocols */,
+				AF606150CB7B7975FE7A682ED4E78BD3 /* Bindable.swift */,
+				EC83998FCBC283C829CEE9A10020D901 /* Coordinator.swift */,
 			);
-			name = Network;
-			path = Sources/Network;
+			name = Protocols;
+			path = Sources/Protocols;
+			sourceTree = "<group>";
+		};
+		DD9A1E134281D7E2C11A5D06D057FC4B /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				52747AC9D816E0F462601FCA18C43E3A /* POperation.swift */,
+				D08906290484A39126F1F3360BCCC6A8 /* POperationQueue.swift */,
+			);
+			name = Operations;
+			path = Sources/Operations;
 			sourceTree = "<group>";
 		};
 		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
@@ -421,25 +434,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FAD1D8F7B64EA530229C3CED6FAFDB92 /* Storage */ = {
+		FA3ADE2D4D6ED1DC18F8DA7B8AC893A9 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				B455639B65D1D05E4A063880C82E26CD /* FileManagerType.swift */,
-				98AB2AC6CCA0230591A063C5D35CFA8B /* FileStorage.swift */,
-				5801A1D16C90842AF33AAD8CC334C04A /* FileStorageType.swift */,
+				4FF1A7CD74C5EFEFE006C9F3D43B1AD4 /* HTTPMethod.swift */,
+				BAC6C6E18194DF943863BE4E96F54374 /* HTTPRequest.swift */,
+				FFB76CAF32D4B1A4B2AA2D6BC2A97999 /* HTTPResponse.swift */,
+				445F13433CB5F1A71551243F9CCC6CE8 /* HTTPService.swift */,
+				21168BE9BB8C2B20B02558AA3A2B8EE7 /* HTTPSession.swift */,
 			);
-			name = Storage;
-			path = Sources/Storage;
+			name = Protocols;
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		11D0CFEAC2016E7390490AE8820C1597 /* Headers */ = {
+		91FC4035F11878369A4F170C10BCA6B2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7909389273AF9AA965E44BBF3CBF82D5 /* Prego-umbrella.h in Headers */,
+				39E8503C7EE1FE2326378C76F3D2318A /* Prego-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,12 +498,12 @@
 		};
 		F601D206017D61D8B42E8E5EF9460413 /* Prego */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8B84C2ADA264F2549A33A95DC0F497A /* Build configuration list for PBXNativeTarget "Prego" */;
+			buildConfigurationList = AC39AA207E9351B7C1651AC8F00E9449 /* Build configuration list for PBXNativeTarget "Prego" */;
 			buildPhases = (
-				11D0CFEAC2016E7390490AE8820C1597 /* Headers */,
-				5E290C4DD9E2ACF7F8B748AB69AE6165 /* Sources */,
-				D4BFEE72469719AF11055503E97C0D12 /* Frameworks */,
-				45656CA514F9C1278112BA8D063B4227 /* Resources */,
+				91FC4035F11878369A4F170C10BCA6B2 /* Headers */,
+				17B42435FC690E7AD1F6DFE0BF5584DD /* Sources */,
+				3B29022287CCC7056E063A79CD78864D /* Frameworks */,
+				FEB179C3F0B1A90DEEF0E087BEE52324 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -554,14 +569,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45656CA514F9C1278112BA8D063B4227 /* Resources */ = {
+		700B8D5863C1A5B6EFB3DEEE1F8BDD88 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		700B8D5863C1A5B6EFB3DEEE1F8BDD88 /* Resources */ = {
+		FEB179C3F0B1A90DEEF0E087BEE52324 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -571,48 +586,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5E290C4DD9E2ACF7F8B748AB69AE6165 /* Sources */ = {
+		17B42435FC690E7AD1F6DFE0BF5584DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E4C1A05FA85845EFF516CF808EA8F2D /* AnyCollectionViewCell.swift in Sources */,
-				E78696B92407101466752E2DC0F287A0 /* AppInfo.swift in Sources */,
-				10ED30C3BC0711D6824A049ADC95C28E /* Array+Utils.swift in Sources */,
-				A72F391D8885F84390DAD117198A3DCE /* Bindable.swift in Sources */,
-				FA93FB4AE3A50917F8AE6624FB930253 /* Coordinator.swift in Sources */,
-				CC2E6AE2CE90A150C6FDDD58C8EC43CD /* Date+Utils.swift in Sources */,
-				D337CEE6FA55429864F2D7380B7A200F /* Dictionary+Utils.swift in Sources */,
-				371F2F59A3AF5C3AED7696EA2AFF3F10 /* FileManagerType.swift in Sources */,
-				73157A26FEB3E21B3A860B50348CC4A6 /* FileStorage.swift in Sources */,
-				39E8E0E91EC28ACFC7A7E235195E4528 /* FileStorageType.swift in Sources */,
-				B4C60FBCBF843F1261D0E0A7EEBC6833 /* HTTPMethod.swift in Sources */,
-				5A60CA09A47D99E51145E8CB3C525F97 /* HTTPRequest.swift in Sources */,
-				BDA988758C8DD98BCA5EB657D65B7CD1 /* HTTPResponse.swift in Sources */,
-				20F4A89EBA24D882307F309568701688 /* HTTPService.swift in Sources */,
-				677F73AA870475257295BBCD71EB4765 /* HTTPSession.swift in Sources */,
-				50B0FDCE3428C7D0DEF3896EB16A1A50 /* JSON.swift in Sources */,
-				051D4F22319A11F259C89C488319A107 /* Log.swift in Sources */,
-				ED36F157EF31CC80193E77D1AF08202A /* LogPermissions.swift in Sources */,
-				E80B8C204FDCDD1919EC1851FB905B3E /* NetworkError.swift in Sources */,
-				950086DC08812F466846D564EBBC1215 /* NetworkResponse.swift in Sources */,
-				E2BFEA1197654FE5BCA8A9E15DCAF77A /* NSObject+Utils.swift in Sources */,
-				1246B0003766BFE5D0DFE7AA6B763959 /* NSRange+Utils.swift in Sources */,
-				A51C35A432132E3122D6EA0829423204 /* Platform.swift in Sources */,
-				8F4C4508BF2B8F484298BFD776A97611 /* POperation.swift in Sources */,
-				D57E12B09651B2DF70A0AA5D7C9DC31A /* POperationQueue.swift in Sources */,
-				92A7671A733F32404DFBE9F357DFAC38 /* Prego-dummy.m in Sources */,
-				5732967EB7927E3880B954CE0E915C88 /* Remote.swift in Sources */,
-				6873D4A748F003A8A78CA60D335093C3 /* String+Localizable.swift in Sources */,
-				AAF818B31D1A14C844C4674B7447EEBC /* String+Utils.swift in Sources */,
-				85917C29082C5794E8592F41ED7C9CF2 /* UICollectionView+NIB.swift in Sources */,
-				BAA13CC34747C15D4B44C65761A92DFF /* UIColor+Utils.swift in Sources */,
-				DACF9C0A92A261047F09AC401B2B6BDC /* UITableView+NIB.swift in Sources */,
-				2F18DE311330D28F526BF72AD35B20EC /* UIView+Debug.swift in Sources */,
-				299FC52450290BD6473EFB8B9BE7F4FE /* UIView+NIB.swift in Sources */,
-				9D01468CDA6F692F43B41B90BDFA14CB /* UIView+Utils.swift in Sources */,
-				02D6FD8D3E1CD738D217AB9324853636 /* UIViewController+Segue.swift in Sources */,
-				F73F4A9185EE598C15CF029729B56E8F /* UIViewController+Storyboard.swift in Sources */,
-				74F225F276B362EEF066B9C8DB13E6A2 /* ViewState.swift in Sources */,
+				C42B09128F3DB082C50180EE6527F2C0 /* AnyCollectionViewCell.swift in Sources */,
+				D21866A0D3CBE34DF984CA2A48A4EDB5 /* AppInfo.swift in Sources */,
+				42E2108367B81F6C025C76B87CD7E9B9 /* Array+Utils.swift in Sources */,
+				534B8ECC94049DAE0E3295421188A0E7 /* Bindable.swift in Sources */,
+				2A148F0916FB14857464F5DA98B12A50 /* Coordinator.swift in Sources */,
+				4587EF26C17A13FEA67498CD2B2A026D /* Date+Utils.swift in Sources */,
+				BBDB88BB8E4672BD87BE387566D8C304 /* Dictionary+Utils.swift in Sources */,
+				CDCF542454889C0A25D54B44C633DE30 /* FileManagerType.swift in Sources */,
+				2F7D08402D0207030A1B9B8AC3C542D9 /* FileStorage.swift in Sources */,
+				D5FF4E9766D4A2A17B7D24F899532BF8 /* FileStorageType.swift in Sources */,
+				FE7E3F0007463FDDE29ADA87FA790ACE /* HTTPMethod.swift in Sources */,
+				E7DFD8F056663FFEA63CFB706793EDDC /* HTTPRequest.swift in Sources */,
+				AA10E7E99485E5BCDA8CF782C022A19B /* HTTPResponse.swift in Sources */,
+				2A2435D6E94753A58C98F03C0654504B /* HTTPService.swift in Sources */,
+				34AE7FE4758AA338BCB5CF1AB19C7D66 /* HTTPSession.swift in Sources */,
+				50FC5AB2A6FCCE95EE39951874DA8EDF /* JSON.swift in Sources */,
+				4E77048EC150DB8B15E327A97BFF6C1A /* Log.swift in Sources */,
+				C6926BA63A7AC7FA108A568A9C7F15E8 /* LogPermissions.swift in Sources */,
+				78ED75E7A29BA29DF159EB1572319900 /* NetworkError.swift in Sources */,
+				D39D4C2807312CDAA4741DCC89260601 /* NetworkResponse.swift in Sources */,
+				842828E57B8BE5D6E9DE2EB23F6BF276 /* NSObject+Utils.swift in Sources */,
+				75526BA0E047FE02126CE7ECBF12FCCF /* NSRange+Utils.swift in Sources */,
+				E5B9EB392DE05C56ED82018A03DBE113 /* Platform.swift in Sources */,
+				D7FF2F54453111122716066612FF152A /* POperation.swift in Sources */,
+				ED0DB50A03DCD5C5F3BD28F347C59C21 /* POperationQueue.swift in Sources */,
+				8032CD5A095C5D18ADD7BB889886A4E1 /* Prego-dummy.m in Sources */,
+				F684FBAEE746C044B75293D614A0535E /* Remote.swift in Sources */,
+				A006D3BB15C3888287B7A85D0DA790CD /* ResourceLoader.swift in Sources */,
+				AF115963ADDCD8C8A2D80F11A32E1E07 /* ResourceLoaderError.swift in Sources */,
+				33D8EB7494E857EFB67CA81E459C3B32 /* String+Localizable.swift in Sources */,
+				6F339128A45B8C0A18306D05E1773D8E /* String+Utils.swift in Sources */,
+				9CE6C603DE730E367D2292405F1D542C /* UICollectionView+NIB.swift in Sources */,
+				DE42953DE633FE4CDCC88BFD1AA30D99 /* UIColor+Utils.swift in Sources */,
+				045D5E92A6876558EECEF9C7FD93B6C7 /* UITableView+NIB.swift in Sources */,
+				659C030BE831DA26978CFB5CAC2F35D5 /* UIView+Debug.swift in Sources */,
+				AF280DE70D78C677C17DF5EE15648515 /* UIView+NIB.swift in Sources */,
+				E94CFC55EAC9405F27DDD6A7F7F48387 /* UIView+Utils.swift in Sources */,
+				26961B295A5D8BC40F14FC0E1A3B1A0E /* UIViewController+Segue.swift in Sources */,
+				1AB64279C6AB4AAE3F441B9A1E433DCF /* UIViewController+Storyboard.swift in Sources */,
+				29F1B5BBFA51462227B289EF7FB2D83A /* ViewState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -746,9 +763,9 @@
 			};
 			name = Release;
 		};
-		3187CD66FC67F8167B0B370811A77C2C /* Debug */ = {
+		5D902C5FDD21F9A5924B35BB7771F0B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B4E974F8228B37D00B8D9758F746571 /* Prego.xcconfig */;
+			baseConfigurationReference = 9FEBD51722B4D75E1B5C242AB698F290 /* Prego.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -774,10 +791,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		733B6F3A201214B786BCFE02C85ACE32 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -885,6 +903,39 @@
 			};
 			name = Debug;
 		};
+		D65B9AF73CF6943F43E8A3736454A6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FEBD51722B4D75E1B5C242AB698F290 /* Prego.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Prego/Prego-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Prego/Prego-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Prego/Prego.modulemap";
+				PRODUCT_MODULE_NAME = Prego;
+				PRODUCT_NAME = Prego;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -949,40 +1000,6 @@
 			};
 			name = Debug;
 		};
-		F4BF46418925B950AD998791165D6CC2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B4E974F8228B37D00B8D9758F746571 /* Prego.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Prego/Prego-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Prego/Prego-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Prego/Prego.modulemap";
-				PRODUCT_MODULE_NAME = Prego;
-				PRODUCT_NAME = Prego;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1004,11 +1021,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8B84C2ADA264F2549A33A95DC0F497A /* Build configuration list for PBXNativeTarget "Prego" */ = {
+		AC39AA207E9351B7C1651AC8F00E9449 /* Build configuration list for PBXNativeTarget "Prego" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3187CD66FC67F8167B0B370811A77C2C /* Debug */,
-				F4BF46418925B950AD998791165D6CC2 /* Release */,
+				D65B9AF73CF6943F43E8A3736454A6BE /* Debug */,
+				5D902C5FDD21F9A5924B35BB7771F0B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
