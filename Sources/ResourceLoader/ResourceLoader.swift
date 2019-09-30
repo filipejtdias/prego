@@ -17,9 +17,7 @@ public protocol ResourceLoaderType {
     func load(_ completion: @escaping Handler)
 }
 
-public class ResourceLoader<T>: ResourceLoaderType {
-
-    typealias DataType = T
+public class ResourceLoader: ResourceLoaderType {
 
     private var bundle: Bundle
     private var fileName: String
