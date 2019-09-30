@@ -31,12 +31,18 @@ public class Remote: HTTPService {
                          parameters: HTTPParameters?,
                          completion: @escaping Handler) {
 
-        guard let url = buildURL(path: path) else {
+        guard var url = buildURL(path: path) else {
             completion(.failure(.urlMalformed))
             return
         }
 
-        let request = URLRequest(url: url)
+        if let params = parameters, method == .get {
+            url = url.appendingQueryParameters(params)
+        }
+
+        var request = URLRequest(url: url)
+        request.httpMethod = method.description
+
         performRequest(request: request, completion: completion)
     }
 
