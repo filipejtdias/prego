@@ -7,12 +7,12 @@
 
 import Foundation
 
-class POperation: Operation {
+public class POperation: Operation {
     
-    var success: Bool = false
-    var error: Error?
+    public var success: Bool = false
+    public var error: Error?
     
-    override init() {
+    override public init() {
         
         _executing = false
         _finished = false
@@ -24,7 +24,7 @@ class POperation: Operation {
     
     // MARK: - Convinience operation finished
     
-    func finishOperation() {
+    public func finishOperation() {
         
         isExecuting = false
         isFinished = true
@@ -32,19 +32,18 @@ class POperation: Operation {
     
     // MARK: - NSOperation custom execution control (adding dispatch group interaction)
     
-    override func start() {
+    override public func start() {
         
         isExecuting = true
         isFinished = false
         
         if isCancelled {
-            
             print("\(self) not started because previously canceled")
             return
         }
     }
     
-    override func cancel() {
+    override public func cancel() {
         
         super.cancel()
         
@@ -56,15 +55,13 @@ class POperation: Operation {
     }
     
     fileprivate var _executing : Bool
-    override var isExecuting : Bool {
+    override public var isExecuting : Bool {
         
         get {
-            
             return _executing
         }
         
         set {
-            
             willChangeValue(forKey: "isExecuting")
             _executing = newValue
             didChangeValue(forKey: "isExecuting")
@@ -72,15 +69,13 @@ class POperation: Operation {
     }
     
     fileprivate var _finished : Bool
-    override var isFinished : Bool {
+    override public var isFinished : Bool {
         
         get {
-            
             return _finished
         }
         
         set {
-            
             willChangeValue(forKey: "isFinished")
             _finished = newValue
             didChangeValue(forKey: "isFinished")
@@ -88,15 +83,13 @@ class POperation: Operation {
     }
     
     fileprivate var _asynchronous : Bool
-    override var isAsynchronous : Bool {
+    override public var isAsynchronous : Bool {
         
         get {
-            
             return _asynchronous
         }
         
         set {
-            
             willChangeValue(forKey: "isAsynchronous")
             _asynchronous = newValue
             didChangeValue(forKey: "isAsynchronous")
@@ -104,15 +97,13 @@ class POperation: Operation {
     }
     
     fileprivate var _cancelled : Bool
-    override var isCancelled : Bool {
+    override public var isCancelled : Bool {
         
         get {
-            
             return _cancelled
         }
         
         set {
-            
             willChangeValue(forKey: "isCancelled")
             _cancelled = newValue
             didChangeValue(forKey: "isCancelled")

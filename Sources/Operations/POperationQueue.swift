@@ -7,21 +7,21 @@
 
 import Foundation
 
-typealias POperationQueueCompletionBlock = () -> (()?)
+public typealias POperationQueueCompletionBlock = () -> (()?)
 
-class POperationQueue: OperationQueue {
+public class POperationQueue: OperationQueue {
     
-    var isRunning: Bool = false
-    var completionBlock: POperationQueueCompletionBlock? = nil
+    public var isRunning: Bool = false
+    public var completionBlock: POperationQueueCompletionBlock? = nil
     
-    override func cancelAllOperations() {
+    override public func cancelAllOperations() {
         
         isRunning = false
         
         super.cancelAllOperations()
     }
     
-    override func observeValue(
+    override public func observeValue(
         forKeyPath keyPath: String?,
         of object: Any?,
         change: [NSKeyValueChangeKey : Any]?,
@@ -29,25 +29,21 @@ class POperationQueue: OperationQueue {
         
         // 1. Check queue
         guard let queue = object as? OperationQueue, queue == self else {
-            
             return
         }
         
         // 2. Check if it's the operationCount observer
         guard let operationCountKey = keyPath, operationCountKey == "operationCount" else {
-            
             return
         }
         
         // 3. Only perform completionBlock when operationCount goes from 1 to 0
-        if let oldValue = change?[NSKeyValueChangeKey.oldKey] as? Int, oldValue == 1 && queue.operationCount == 0 {
+        if let oldValue = change?[NSKeyValueChangeKey.oldKey] as? Int,
+               oldValue == 1 && queue.operationCount == 0 {
             
             DispatchQueue.main.async(execute: { [weak self] in
                 
-                guard let `self` = self else {
-                    
-                    return
-                }
+                guard let self = self else { return }
                 
                 self.isRunning = false
                 self.removeObserver(self, forKeyPath: "operationCount")
@@ -58,7 +54,8 @@ class POperationQueue: OperationQueue {
         }
     }
     
-    func setCompletionBlock(options op: NSKeyValueObservingOptions, completion: @escaping POperationQueueCompletionBlock) {
+    public func setCompletionBlock(options op: NSKeyValueObservingOptions,
+                                   completion: @escaping POperationQueueCompletionBlock) {
         
         if operations.count > 0 {
             
