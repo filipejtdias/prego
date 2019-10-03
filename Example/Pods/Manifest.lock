@@ -1,5 +1,5 @@
 PODS:
-  - Prego (0.7.0)
+  - Prego (0.7.2)
 
 DEPENDENCIES:
   - Prego (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Prego: 91b1702135313883b7b4f6435add8c6db0705202
+  Prego: ca674d60b8e1454e60c5c6d769b038d6e2ae512a
 
 PODFILE CHECKSUM: 6494be119998d9d040a869bb5524cfe1085e2b2c
 

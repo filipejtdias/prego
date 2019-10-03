@@ -15,7 +15,7 @@ public enum HTTPError: Swift.Error {
     case status(Int)
 }
 
-protocol HTTPResponse {
+public protocol HTTPResponse {
     
     var data: Data? { get }
     var httpResponse: URLResponse? { get }
@@ -24,7 +24,7 @@ protocol HTTPResponse {
     var isValid: Bool { get }
 }
 
-extension HTTPResponse {
+public extension HTTPResponse {
 
     var hasError: Bool {
         return error != nil
