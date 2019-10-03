@@ -7,13 +7,13 @@
 
 import Foundation
 
-class NetworkResponse: HTTPResponse {
+public class NetworkResponse: HTTPResponse {
 
-    private(set) var data: Data?
-    private(set) var httpResponse: URLResponse?
-    private(set) var error: HTTPError?
+    public private(set) var data: Data?
+    public private(set) var httpResponse: URLResponse?
+    public private(set) var error: HTTPError?
 
-    init(data: Data?, httpResponse: URLResponse?, error: Error?) {
+    public init(data: Data?, httpResponse: URLResponse?, error: Error?) {
         self.data = data
         self.httpResponse = httpResponse
         self.error = build(with: error)
