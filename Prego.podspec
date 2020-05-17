@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name        = 'Prego'
   s.module_name = 'Prego'
-  s.version     = '0.7.2'
+  s.version     = '1.0.0'
   
   s.ios.deployment_target   = '11.0'
   s.tvos.deployment_target  = '11.0'

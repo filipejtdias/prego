@@ -23,7 +23,7 @@ This repository contains small utils and helpers that make our life easier.
 
 ## Installation 🔧
 
-Prego supports iOS 11.0+ and requires Xcode 10.2.1  ( Swift 5.0 )    
+Prego supports iOS 11.0+ and requires Xcode 11.4.1  ( Swift 5.2 )    
 
 ### CocoaPods
 
